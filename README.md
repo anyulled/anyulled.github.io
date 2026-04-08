@@ -45,15 +45,14 @@ The skills are designed to be deterministic, static-first, and reusable across r
 
 ## Sources
 
-This repository is a synthesis of explicitly provided materials and established software architecture literature. It is not copied verbatim from any single source and it is not an ex nihilo invention.
+This repository is a synthesis of established software architecture literature. It is not copied verbatim from any single source.
 
-- User-provided materials and the original brief.
 - Michael Plöd, [Systems Thinking by combining Team Topologies with Context Maps](https://speakerdeck.com/mploed/systems-thinking-by-combining-team-topologies-with-context-maps).
 - Simon Brown, [The Software Guidebook](https://leanpub.com/documenting-software-architecture).
 - Neal Ford, Rebecca Parsons, and Patrick Kua, [Building Evolutionary Architectures](https://evolutionaryarchitecture.com/).
 - Matthew Skelton and Manuel Pais, [Team Topologies](https://teamtopologies.com/).
 - Eric Evans, [Domain-Driven Design](https://domaindrivendesign.org/).
-- Vaughn Vernon, bounded context and strategic DDD practice.
+- [Vaughn Vernon](https://vaughnvernon.com/), Strategic Monoliths and Microservices, implementing Domain-Driven Design.
 - Robert C. Martin, [Clean Architecture](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/) and coupling/cohesion principles.
 - Mark Richards and Neal Ford, [Fundamentals of Software Architecture](https://fundamentalsofsoftwarearchitecture.com/).
 - Meilir Page-Jones, software metrics and structured design.
