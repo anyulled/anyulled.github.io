@@ -1,6 +1,6 @@
 # Architecture Guardrails Skills
 
-`architecture-guardrails-skills` is a public, agent-agnostic collection of 15 reusable skills for static software architecture analysis.
+`architecture-guardrails-skills` is a public, agent-agnostic collection of 16 reusable skills for static software architecture analysis.
 
 The repository focuses on architectural guardrails: coupling, volatility, bounded contexts, event-driven integrity, deployability, testability, and documentation governance.
 
@@ -8,7 +8,7 @@ Any agent or workflow that can read a `SKILL.md` file and follow its instruction
 
 ## What This Repository Contains
 
-- 15 self-contained skill folders under `skills/<skill-name>/`
+- 16 self-contained skill folders under `skills/<skill-name>/`
 - A `SKILL.md` file per skill
 - Optional bundled assets where the skill needs a template or reference artifact
 - This README and an MIT license
@@ -29,6 +29,7 @@ The skills are designed to be deterministic, static-first, and reusable across r
 | Decision Log & ADR Tracer | Detect missing or incomplete architecture decisions | Simon Brown; architecture documentation practices |
 | Automated Software Guidebook Generator | Keep living architecture documentation current | Simon Brown; software guidebook practices |
 | Automated Architecture Governance (Fitness Function Evaluator) | Enforce explicit architecture rules and thresholds | Building Evolutionary Architectures; ArchUnit/AST tooling |
+| Team Topologies and Cognitive Load Analyzer | Infer stream-aligned, platform, complicated subsystem, and enabling signals from code structure | Team Topologies; context maps; Conway's Law; cognitive load |
 | Structural Coupling & Volatility Analyzer | Measure Ca/Ce, instability, abstractness, and distance from the main sequence | Clean Architecture; Fundamentals of Software Architecture; structural metrics |
 | Domain Boundary and Language Integrity Evaluator | Detect bounded-context leakage and weak ACLs | DDD; Team Topologies; context maps |
 | Platform and Infrastructure Boundary Evaluator | Prevent platform bleed into stream-aligned code | Team Topologies; context-map thinking; platform governance |
@@ -44,20 +45,20 @@ The skills are designed to be deterministic, static-first, and reusable across r
 
 ## Sources
 
-This repository is a synthesis of explicitly provided materials and established software architecture literature. It is not copied verbatim from any single source..
+This repository is a synthesis of explicitly provided materials and established software architecture literature. It is not copied verbatim from any single source and it is not an ex nihilo invention.
 
-- [Michael Plöd](https://www.michael-ploed.com/)'s context-map and [Team Topologies]() material, [Simon Brown]()'s Software Guidebook PDF, and the architectural context.
+- User-provided materials and the original brief.
 - Michael Plöd, [Systems Thinking by combining Team Topologies with Context Maps](https://speakerdeck.com/mploed/systems-thinking-by-combining-team-topologies-with-context-maps).
-- [Simon Brown](https://simonbrown.je/), [The Software Guidebook](https://leanpub.com/documenting-software-architecture).
+- Simon Brown, [The Software Guidebook](https://leanpub.com/documenting-software-architecture).
 - Neal Ford, Rebecca Parsons, and Patrick Kua, [Building Evolutionary Architectures](https://evolutionaryarchitecture.com/).
 - Matthew Skelton and Manuel Pais, [Team Topologies](https://teamtopologies.com/).
 - Eric Evans, [Domain-Driven Design](https://domaindrivendesign.org/).
-- Vaughn Vernon, [bounded context and strategic DDD practice](https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/).
+- Vaughn Vernon, bounded context and strategic DDD practice.
 - Robert C. Martin, [Clean Architecture](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/) and coupling/cohesion principles.
 - Mark Richards and Neal Ford, [Fundamentals of Software Architecture](https://fundamentalsofsoftwarearchitecture.com/).
-- Meilir Page-Jones, [software metrics and structured design](https://dl.acm.org/doi/10.5555/48039).
+- Meilir Page-Jones, software metrics and structured design.
 - Chris Richardson, [Microservices Patterns](https://microservices.io/index.html).
-- [Sam Newman](https://samnewman.io/) [Monoliths to microservices](https://samnewman.io/books/monolith-to-microservices/).
+- Sam Newman, [Monolith to Microservices](https://samnewman.io/books/monolith-to-microservices/).
 - SonarQube, ArchUnit, AST parsers, and deterministic architecture tooling paradigms.
 
 ## Repository Layout
@@ -73,6 +74,8 @@ architecture-guardrails-skills/
     ├── automated-architecture-governance-fitness-function-evaluator/
     │   └── SKILL.md
     ├── architectural-quantum-and-deployability-validator/
+    │   └── SKILL.md
+    ├── team-topologies-and-cognitive-load-analyzer/
     │   └── SKILL.md
     ├── complexity-and-code-health-analyzer/
     │   └── SKILL.md
