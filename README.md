@@ -1,4 +1,4 @@
-# architecture-guardrails-skills
+# Architecture Guardrails Skills
 
 `architecture-guardrails-skills` is a public, agent-agnostic collection of 15 reusable skills for static software architecture analysis.
 
@@ -44,20 +44,20 @@ The skills are designed to be deterministic, static-first, and reusable across r
 
 ## Sources
 
-This repository is a synthesis of explicitly provided materials and established software architecture literature. It is not copied verbatim from any single source and it is not an ex nihilo invention.
+This repository is a synthesis of explicitly provided materials and established software architecture literature. It is not copied verbatim from any single source..
 
-- User-provided materials and uploads: Michael Plöd's context-map and Team Topologies material, Simon Brown's Software Guidebook PDF, and the architectural context supplied in the original brief.
-- Michael Plöd, *Systems Thinking by combining Team Topologies with Context Maps*.
-- Simon Brown, *The Software Guidebook*.
-- Neal Ford, Rebecca Parsons, and Patrick Kua, *Building Evolutionary Architectures*.
-- Matthew Skelton and Manuel Pais, *Team Topologies*.
-- Eric Evans, *Domain-Driven Design*.
-- Vaughn Vernon, bounded context and strategic DDD practice.
-- Robert C. Martin, *Clean Architecture* and coupling/cohesion principles.
-- Mark Richards and Neal Ford, *Fundamentals of Software Architecture*.
-- Meilir Page-Jones, software metrics and structured design.
-- Chris Richardson, *Microservices Patterns*.
-- Sam Newman, microservices and distributed systems architecture guidance.
+- [Michael Plöd](https://www.michael-ploed.com/)'s context-map and [Team Topologies]() material, [Simon Brown]()'s Software Guidebook PDF, and the architectural context.
+- Michael Plöd, [Systems Thinking by combining Team Topologies with Context Maps](https://speakerdeck.com/mploed/systems-thinking-by-combining-team-topologies-with-context-maps).
+- [Simon Brown](https://simonbrown.je/), [The Software Guidebook](https://leanpub.com/documenting-software-architecture).
+- Neal Ford, Rebecca Parsons, and Patrick Kua, [Building Evolutionary Architectures](https://evolutionaryarchitecture.com/).
+- Matthew Skelton and Manuel Pais, [Team Topologies](https://teamtopologies.com/).
+- Eric Evans, [Domain-Driven Design](https://domaindrivendesign.org/).
+- Vaughn Vernon, [bounded context and strategic DDD practice](https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/).
+- Robert C. Martin, [Clean Architecture](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/) and coupling/cohesion principles.
+- Mark Richards and Neal Ford, [Fundamentals of Software Architecture](https://fundamentalsofsoftwarearchitecture.com/).
+- Meilir Page-Jones, [software metrics and structured design](https://dl.acm.org/doi/10.5555/48039).
+- Chris Richardson, [Microservices Patterns](https://microservices.io/index.html).
+- [Sam Newman](https://samnewman.io/) [Monoliths to microservices](https://samnewman.io/books/monolith-to-microservices/).
 - SonarQube, ArchUnit, AST parsers, and deterministic architecture tooling paradigms.
 
 ## Repository Layout
