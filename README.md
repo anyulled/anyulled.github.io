@@ -1,5 +1,7 @@
 # Architecture Guardrails Skills
 
+![Architecture Guardrails Skills banner](assets/banner.svg)
+
 `architecture-guardrails-skills` is a public, agent-agnostic collection of 16 reusable skills for static software architecture analysis.
 
 The repository focuses on architectural guardrails: coupling, volatility, bounded contexts, event-driven integrity, deployability, testability, and documentation governance.
