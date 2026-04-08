@@ -44,6 +44,12 @@ Infer likely team topology signals from codebase structure and change patterns.
 - Do not infer org charts or team names unless the repository explicitly encodes them.
 - Treat platform code as a candidate only when it is reusable, stable, and domain-agnostic.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return Markdown or JSON with:

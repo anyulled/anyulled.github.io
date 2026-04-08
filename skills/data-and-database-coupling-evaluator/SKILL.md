@@ -38,6 +38,12 @@ Analyze data access boundaries to detect model coupling and shared-table integra
 - Keep analysis deterministic and language-agnostic.
 - Treat shared writes as the most severe coupling signal.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return:

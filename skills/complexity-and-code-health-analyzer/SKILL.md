@@ -38,6 +38,12 @@ Identify structural hotspots by combining complexity, connascence, and churn dat
 - Do not label a file as a critical hotspot from size alone.
 - If a file is large but historically stable, downgrade to warning unless the code is also structurally complex.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return:

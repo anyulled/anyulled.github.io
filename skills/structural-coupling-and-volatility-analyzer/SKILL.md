@@ -36,6 +36,12 @@ Measure macro-level dependency health across modules and bounded contexts.
 - Do not infer volatility from file size alone.
 - Treat central shared modules as structural anchors rather than failures unless they are both concrete and unstable.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return:

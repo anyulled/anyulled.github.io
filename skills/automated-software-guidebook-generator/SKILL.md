@@ -51,6 +51,12 @@ Validate that the guidebook includes:
 - Treat docs as living artifacts: update the smallest relevant section first.
 - Do not invent infrastructure details that are not supported by files.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return a structured report with:

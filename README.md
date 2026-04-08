@@ -10,6 +10,7 @@ Any agent or workflow that can read a `SKILL.md` file and follow its instruction
 
 - 16 self-contained skill folders under `skills/<skill-name>/`
 - A `SKILL.md` file per skill
+- A shared conventions file at `references/shared-skill-conventions.md`
 - Optional bundled assets where the skill needs a template or reference artifact
 - This README and an MIT license
 
@@ -18,7 +19,8 @@ Any agent or workflow that can read a `SKILL.md` file and follow its instruction
 1. Pick the skill folder you need.
 2. Copy the folder into the skill location supported by your agent or tooling.
 3. Read `SKILL.md` and use any bundled assets if present.
-4. Apply the skill as a static-analysis guardrail over code, docs, configs, or Git history.
+4. If you need shared reporting or routing rules, read `references/shared-skill-conventions.md`.
+5. Apply the skill as a static-analysis guardrail over code, docs, configs, or Git history.
 
 The skills are designed to be deterministic, static-first, and reusable across repositories.
 
@@ -66,6 +68,8 @@ This repository is a synthesis of established software architecture literature. 
 architecture-guardrails-skills/
 ├── README.md
 ├── LICENSE
+├── references/
+│   └── shared-skill-conventions.md
 └── skills/
     ├── automated-software-guidebook-generator/
     │   ├── SKILL.md
@@ -107,6 +111,8 @@ architecture-guardrails-skills/
 - The skills are intentionally broad enough to be useful across repositories and teams.
 - Several skills overlap by design because architecture problems often overlap in practice.
 - The repository favors deterministic static analysis over runtime experimentation.
+- Shared conventions live in `references/shared-skill-conventions.md` and define the canonical output contract, severity rules, and routing between overlapping skills.
+- Some skill folders may include optional agent metadata files such as `agents/openai.yaml`; those are supporting artifacts, not required for the skill itself.
 
 ## License
 

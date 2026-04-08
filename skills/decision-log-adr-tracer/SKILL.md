@@ -33,6 +33,12 @@ Audit repositories for undocumented architectural or technology shifts.
 - Treat minor version bumps and routine maintenance as out of scope unless they change architecture materially.
 - If a new dependency is clearly structural, require documentation.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return a concise compliance report with:

@@ -39,6 +39,12 @@ Detect fine-grained coupling that weakens encapsulation across module boundaries
 - Do not treat internal workflow status enums as a fail if they are part of an explicit, documented pipeline contract.
 - Prefer warning when the coupling is intentional, bounded, and already absorbed by a public event or orchestration boundary.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return:

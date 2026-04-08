@@ -43,6 +43,12 @@ Evaluate structural rules and quantitative thresholds defined by architecture go
 - Treat the absence of a dedicated architecture rules file as a warning if other executable governance exists in CI.
 - Treat explicit violations of declared architecture fitness functions as fails.
 
+## Shared Conventions
+
+- Follow the repository-wide conventions in [shared-skill-conventions](../../references/shared-skill-conventions.md).
+- Use the canonical output contract, severity levels, confidence rubric, routing rules, and false-positive downgrades defined there.
+- If this skill is not the closest match, defer to the routing guidance in the shared conventions file.
+
 ## Output
 
 Return:
