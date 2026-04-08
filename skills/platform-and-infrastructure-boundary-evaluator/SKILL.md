@@ -17,6 +17,13 @@ Audit business-domain code for infrastructure bleed and platform boundary violat
 
 - Skip repositories explicitly tagged `Platform`, `Infra`, or `DevOps`.
 
+## Scope
+
+- Scans: core business logic, cloud SDK imports, infrastructure APIs, package manifests, and deployment/configuration files that may leak platform details into stream-aligned code.
+- Exclusions: platform-owned directories, DevOps or Infra repositories, and documentation-only references that do not affect runtime code paths.
+- Fallback: if the codebase role is unclear, fall back to the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer independent-deployability concerns to Architectural Quantum and Deployability Validator and team-boundary signals to Team Topologies and Cognitive Load Analyzer.
+
 ## Workflow
 
 1. Detect infrastructure bleed.

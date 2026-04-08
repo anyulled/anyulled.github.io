@@ -14,6 +14,13 @@ Trace service-to-service communication and classify distributed workflow risks.
 - Message broker, REST, or gRPC integration changes
 - Microservice resilience and workflow audits
 
+## Scope
+
+- Scans: HTTP clients, gRPC stubs, GraphQL mutations, Kafka/RabbitMQ/SQS/SNS publishers and consumers, database connection strings, and deployment configs that shape cross-service workflows.
+- Exclusions: single-process helper calls, intra-service sync code, and broker or network details that are not part of a distributed workflow boundary.
+- Fallback: if a workflow boundary is uncertain, use the shared conventions fallback and report warning with low confidence.
+- Routing: defer event-payload autonomy to Event-Driven Architecture Integrity Evaluator and deployability boundaries to Architectural Quantum and Deployability Validator.
+
 ## Workflow
 
 1. Trace integration points.

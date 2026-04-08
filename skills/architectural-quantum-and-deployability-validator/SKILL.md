@@ -14,6 +14,13 @@ Analyze service boundaries to verify independent deployability and isolation.
 - PRs introducing shared database usage
 - Microservice deployability audits
 
+## Scope
+
+- Scans: outbound HTTP/gRPC calls, database connection strings, schema configs, and IaC files that affect independent deployability.
+- Exclusions: generated/vendor artifacts, sample or benchmark repos, and static references that do not alter deployability boundaries.
+- Fallback: if deployability boundaries are unclear, apply the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer shared-table ownership to Data and Database Coupling, inter-service workflow shape to Distributed Workflow and Integration, and platform bleed to Platform and Infrastructure Boundary.
+
 ## Workflow
 
 1. Map synchronous dependencies.

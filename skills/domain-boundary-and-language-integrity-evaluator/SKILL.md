@@ -14,6 +14,13 @@ Enforce DDD boundaries and prevent domain model leakage across contexts.
 - Data structures passed between bounded contexts
 - DDD boundary or context-map audits
 
+## Scope
+
+- Scans: core domain entities, DTOs, mappers, translators, and cross-domain service clients that may leak bounded-context concepts.
+- Exclusions: technical utilities, stable shared contracts, and explicit infrastructure adapters that do not encode domain concepts.
+- Fallback: if a boundary or glossary is unclear, apply the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer shared-table and ORM leakage to Data and Database Coupling Evaluator and shared-kernel extraction concerns to Component Extraction and Tactical Forking Analyzer.
+
 ## Workflow
 
 1. Detect domain entity leakage.

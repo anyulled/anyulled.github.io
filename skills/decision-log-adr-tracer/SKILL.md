@@ -14,6 +14,13 @@ Audit repositories for undocumented architectural or technology shifts.
 - CI checks for architecture governance
 - Reviews of new frameworks, databases, or major libraries
 
+## Scope
+
+- Scans: dependency manifests, imports that imply a new major technology, and decision-log or ADR locations such as docs/adr, docs/decisions, DECISION_LOG.md, architecture.md, and equivalent records.
+- Exclusions: minor dependency bumps, editorial-only documentation edits, and changes that do not alter architecture materially.
+- Fallback: if documentation structure is unclear, apply the shared conventions heuristic order and emit warning with low confidence.
+- Routing: defer living guidebook freshness to Automated Software Guidebook Generator and explicit rule enforcement to Automated Architecture Governance.
+
 ## Workflow
 
 1. Detect technology shifts.

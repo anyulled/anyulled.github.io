@@ -14,6 +14,13 @@ Infer likely team topology signals from codebase structure and change patterns.
 - Team boundary analysis from code, docs, and Git history only
 - Checks for cognitive load, Conway's Law, and platform-vs-product separation
 
+## Scope
+
+- Scans: directory structure, package/module boundaries, dependency graphs, churn patterns, and ownership clues that can reveal stream-aligned, platform, enabling, or complicated-subsystem signals.
+- Exclusions: generated/vendor folders, isolated test fixtures, and ambiguous mixed-concern files that do not represent stable team boundaries.
+- Fallback: if team boundaries are unclear, apply the shared conventions fallback and report warning with low confidence.
+- Routing: defer platform bleed into business logic to Platform and Infrastructure Boundary Evaluator and raw module coupling metrics to Structural Coupling and Volatility Analyzer.
+
 ## Workflow
 
 1. Map repository areas.

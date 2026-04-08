@@ -14,6 +14,13 @@ Identify structural hotspots by combining complexity, connascence, and churn dat
 - CI gates for complexity thresholds
 - Volatility and technical-debt reviews
 
+## Scope
+
+- Scans: public methods and classes, cross-module call sites, static connascence signals, and version-control churn for hotspot detection.
+- Exclusions: generated files, vendor code, and intentionally large benchmark or load-test scripts unless they also show material structural risk.
+- Fallback: if complexity and churn signals disagree, fall back to the shared conventions scoring order and downgrade to warning when confidence is low.
+- Routing: defer public-interface coupling to Integration Strength and Micro-Coupling Evaluator and module-level dependency health to Structural Coupling and Volatility Analyzer.
+
 ## Workflow
 
 1. Calculate complexity.

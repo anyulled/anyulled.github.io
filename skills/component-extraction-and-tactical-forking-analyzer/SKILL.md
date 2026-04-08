@@ -14,6 +14,13 @@ Identify bounded contexts that are suitable for extraction from a monolith.
 - Pre-extraction feasibility studies
 - Domain boundary or context-map reviews
 
+## Scope
+
+- Scans: namespace and directory structures, cross-domain imports, and shared Common/Shared/Core/Utils directories to identify extraction candidates.
+- Exclusions: benign technical shared code, generated/vendor code, and sample or reference repos that are not candidates for extraction.
+- Fallback: if domain ownership is unclear, apply the shared conventions heuristic order and report a warning with low confidence.
+- Routing: defer bounded-context leakage to Domain Boundary and Language Integrity Evaluator and module-level coupling health to Structural Coupling and Volatility Analyzer.
+
 ## Workflow
 
 1. Map domain components.

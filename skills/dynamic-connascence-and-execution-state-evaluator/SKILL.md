@@ -15,6 +15,13 @@ Analyze runtime coupling risks that arise from execution order, timing, and shar
 - Multithreaded or concurrent code
 - Shared constants or validation rules that may drift
 
+## Scope
+
+- Scans: asynchronous workers, state machines, event handlers, mutable state, and timing-sensitive code paths that create temporal coupling.
+- Exclusions: synchronous-only helpers, generated code, and deliberate orchestration that is already covered by a higher-level workflow contract.
+- Fallback: if execution order is ambiguous, fall back to the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer multi-service orchestration to Distributed Workflow and Integration Analyzer and cross-boundary interface coupling to Integration Strength and Micro-Coupling Evaluator.
+
 ## Workflow
 
 1. Detect connascence of execution.

@@ -14,6 +14,13 @@ Analyze data access boundaries to detect model coupling and shared-table integra
 - Data access layer refactors
 - Monolith-to-microservice decomposition reviews
 
+## Scope
+
+- Scans: ORM entities, SQL migration scripts, DAO/repository classes, and SQL query strings that reveal table ownership and schema coupling.
+- Exclusions: analytics/read-model joins that are explicitly documented, generated code, and runtime-only database issues without static evidence.
+- Fallback: if schema ownership is ambiguous, fall back to the shared conventions order and downgrade to warning with low confidence.
+- Routing: defer bounded-context translation concerns to Domain Boundary and Language Integrity Evaluator and distributed workflow ownership to Distributed Workflow and Integration Analyzer.
+
 ## Workflow
 
 1. Detect shared table coupling.

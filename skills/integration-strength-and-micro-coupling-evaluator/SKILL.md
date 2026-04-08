@@ -14,6 +14,13 @@ Detect fine-grained coupling that weakens encapsulation across module boundaries
 - Shared state or global variable changes
 - Reviews focused on encapsulation or dependency injection
 
+## Scope
+
+- Scans: public method signatures, cross-module calls, shared mutable state, and argument structures at module boundaries.
+- Exclusions: private helpers, same-class internals, and stable transport DTOs that are explicitly used as boundary contracts.
+- Fallback: if coupling is borderline, apply the shared conventions fallback and downgrade to warning with low confidence unless the violation is explicit.
+- Routing: defer timing and execution-order coupling to Dynamic Connascence and Execution State Evaluator and brittle seam placement in tests to Testability and Automation Architecture Evaluator.
+
 ## Workflow
 
 1. Detect content and common coupling.

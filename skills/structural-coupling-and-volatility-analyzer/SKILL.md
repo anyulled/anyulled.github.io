@@ -14,6 +14,13 @@ Measure macro-level dependency health across modules and bounded contexts.
 - CI gates for dependency drift
 - Package or module boundary audits
 
+## Scope
+
+- Scans: package and module dependency graphs, import statements, package declarations, and version-control churn needed to compute Ca, Ce, instability, abstractness, and distance from the main sequence.
+- Exclusions: generated/vendor code and local refactors that do not change the external dependency graph materially.
+- Fallback: if module boundaries are weak or inconsistent, use the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer method-level connascence and complexity to Complexity and Code Health Analyzer and extraction planning to Component Extraction and Tactical Forking Analyzer.
+
 ## Workflow
 
 1. Calculate coupling.

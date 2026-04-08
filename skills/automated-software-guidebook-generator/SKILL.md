@@ -29,6 +29,13 @@ Validate that the guidebook includes:
 - Operation and Support
 - Development Environment
 
+## Scope
+
+- Scans: documentation directories, README files, architecture docs, IaC, build scripts, and other artifacts needed to maintain a living guidebook.
+- Exclusions: ADR completeness checks, code-only refactors with no documentation impact, and runtime-only behavior.
+- Fallback: if the guidebook structure is incomplete or ambiguous, fall back to the shared conventions heuristic order and emit warning with low confidence.
+- Routing: defer decision-record completeness to Decision Log and ADR Tracer and explicit architecture-rule enforcement to Automated Architecture Governance.
+
 ## Workflow
 
 1. Validate structure.

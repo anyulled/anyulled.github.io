@@ -13,6 +13,13 @@ Analyze test architecture for isolation, seam quality, and implementation coupli
 - Periodic test-suite health audits
 - Changes to mocking, fixtures, or integration setup
 
+## Scope
+
+- Scans: test suite source files, mocking frameworks, dependency injection setup, and setup/teardown code that reveal architectural seams in tests.
+- Exclusions: pure helper functions within the same file, generated fixtures, and coverage percentage alone without structural evidence.
+- Fallback: if a seam or boundary is unclear, use the shared conventions heuristic order and downgrade to warning with low confidence.
+- Routing: defer interface-coupling analysis to Integration Strength and Micro-Coupling Evaluator and domain-boundary mapping to Domain Boundary and Language Integrity Evaluator.
+
 ## Workflow
 
 1. Detect implementation-detail coupling.

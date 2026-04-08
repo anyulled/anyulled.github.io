@@ -13,6 +13,13 @@ Analyze event-driven systems for autonomy, payload quality, and broker coupling.
 - Message broker configuration changes
 - Architectural audits of async or event-driven services
 
+## Scope
+
+- Scans: event publishers and consumers, schema registry definitions such as proto/avsc files, and broker configuration for topics, queues, exchanges, or subscriptions.
+- Exclusions: direct synchronous APIs, maintenance scripts, and documented notification envelopes that intentionally do not carry full state.
+- Fallback: if payload autonomy is unclear, use the shared conventions fallback and report warning with low confidence.
+- Routing: defer synchronous workflow concerns to Distributed Workflow and Integration Analyzer and shared-table or read-model ownership to Data and Database Coupling Evaluator.
+
 ## Workflow
 
 1. Analyze payload state.

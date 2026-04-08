@@ -14,6 +14,13 @@ Evaluate structural rules and quantitative thresholds defined by architecture go
 - Pre-commit architecture checks
 - Audits of layering, cycles, or metric thresholds
 
+## Scope
+
+- Scans: explicit governance files, architecture tests, dependency graphs, and structural metrics such as cycles or layer violations.
+- Exclusions: documentation-only updates, style-only changes, and runtime issues without a static architectural rule to evaluate.
+- Fallback: if the repository lacks explicit rules, use the shared conventions fallback and report warning rather than fail.
+- Routing: defer documentation freshness to Decision Log and ADR Tracer or Automated Software Guidebook Generator, and module-level coupling to Structural Coupling and Volatility Analyzer.
+
 ## Workflow
 
 1. Parse fitness functions.
