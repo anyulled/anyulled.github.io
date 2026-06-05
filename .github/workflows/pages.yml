@@ -26,14 +26,11 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install pnpm
-        run: npm install -g pnpm@11.5.2
-
       - name: Install and build
         run: |
-          pnpm --version
-          pnpm install --frozen-lockfile
-          pnpm build
+          npx -y pnpm@11.5.2 --version
+          npx -y pnpm@11.5.2 install --frozen-lockfile
+          npx -y pnpm@11.5.2 build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
