@@ -1,0 +1,167 @@
+{
+  "name": "Anyul Rivas",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/100741?v=4",
+  "headline": "Senior Solution Architect leading cross-team delivery and platform decisions at GFT",
+  "location": "Greater Barcelona Metropolitan Area",
+  "summary": "Senior Architect at GFT Technologies with 15+ years building software, shaping architectures and supporting teams across delivery, pre-sales, teaching and community work.",
+  "contact": {
+    "phone": "638802609",
+    "email": "anyulled@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/anyulled",
+    "github": "https://github.com/anyulled"
+  },
+  "highlights": [
+    {
+      "label": "Experience",
+      "value": "15+ years"
+    },
+    {
+      "label": "Focus",
+      "value": "Architecture, delivery, cloud"
+    },
+    {
+      "label": "Community",
+      "value": "BCN JUG and SCBCN"
+    },
+    {
+      "label": "Languages",
+      "value": "ES, EN, PT, CA, FR, IT"
+    }
+  ],
+  "skills": ["AWS Lambda", "Apache Kafka", "Mainframe Architecture", "Kubernetes", "Java", "React", "TypeScript", "DDD", "Team Topologies"],
+  "publications": [
+    {
+      "title": "IT HIRING: CONVIÉRTETE EN UN IMÁN PARA LOS DEVELOPERS",
+      "source": "Publication",
+      "year": "2024"
+    },
+    {
+      "title": "7 best practices for Kubernetes in production",
+      "source": "Indie Hackers",
+      "year": "2023"
+    },
+    {
+      "title": "Anyul Rivas, Barcelona JUG community leader | Talks with software development experts",
+      "source": "Architectural Kata",
+      "year": "2023"
+    }
+  ],
+  "education": [
+    {
+      "school": "UPC School (Universitat Politècnica de Catalunya)",
+      "program": "Postgraduate Degree, Computer Software Engineering",
+      "period": "Oct 2025 - Sep 2026"
+    },
+    {
+      "school": "Lidr.co | Training great Tech Leaders",
+      "program": "LIDR Academy, Organizational Leadership",
+      "period": "Dec 2023 - Jun 2024"
+    },
+    {
+      "school": "ThePower Business School",
+      "program": "Executive MBA",
+      "period": "Apr 2022 - Nov 2023"
+    },
+    {
+      "school": "Udacity",
+      "program": "Cloud Native Foundations",
+      "period": "Jun 2021 - Sep 2022"
+    },
+    {
+      "school": "Udacity",
+      "program": "Cloud Developer using Microsoft Azure",
+      "period": "2020 - 2021"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-01-01",
+      "dateLabel": "Jan 2026",
+      "kind": "work",
+      "title": "Senior Architect",
+      "organization": "GFT Technologies",
+      "location": "Barcelona, Catalonia, Spain",
+      "summary": "Design and lead implementation of complex technical solutions, support pre-sales, coach teams and align architecture with business strategy.",
+      "tags": ["Architecture", "Delivery", "Pre-sales", "AI-assisted validation"]
+    },
+    {
+      "date": "2025-07-01",
+      "dateLabel": "Jul 2025",
+      "kind": "teaching",
+      "title": "Course Instructor",
+      "organization": "arol.dev",
+      "location": "Barcelona",
+      "summary": "Led the Advanced Java course with practical labs, SAGA pattern coverage, performance testing and asynchronous communication using Kafka and RabbitMQ.",
+      "tags": ["Java", "Kafka", "RabbitMQ", "Distributed systems"]
+    },
+    {
+      "date": "2025-10-01",
+      "dateLabel": "Oct 2025",
+      "kind": "community",
+      "title": "Conference Producer",
+      "organization": "DevBcn",
+      "location": "Barcelona",
+      "summary": "Contributed to conference production and digital infrastructure for an event with 1.2K attendees, including a React PWA and automation with LLMs.",
+      "tags": ["React", "PWA", "Sessionize", "Automation"]
+    },
+    {
+      "date": "2024-01-01",
+      "dateLabel": "2024",
+      "kind": "publication",
+      "title": "IT HIRING: CONVIÉRTETE EN UN IMÁN PARA LOS DEVELOPERS",
+      "organization": "Publication",
+      "summary": "Public content focused on hiring strategy and developer attraction.",
+      "tags": ["Hiring", "Community", "Writing"]
+    },
+    {
+      "date": "2022-10-01",
+      "dateLabel": "Oct 2022",
+      "kind": "teaching",
+      "title": "Course Instructor",
+      "organization": "Apium Academy",
+      "location": "Barcelona, Catalonia, Spain",
+      "summary": "Taught 'Accelerate your software delivery' with topics spanning DDD, Team Topologies, Event Storming, DORA metrics and Wardley mapping.",
+      "tags": ["Delivery", "DDD", "Team Topologies", "Wardley Mapping"]
+    },
+    {
+      "date": "2022-04-01",
+      "dateLabel": "Apr 2022",
+      "kind": "work",
+      "title": "Principal Software Engineer",
+      "organization": "Ingram Micro",
+      "location": "Barcelona, Catalonia, Spain",
+      "summary": "Enabled feature-flag deployment techniques, unified observability with OpenTelemetry and improved delivery and testing practices.",
+      "tags": ["Feature flags", "OpenTelemetry", "Testing", "Developer experience"]
+    },
+    {
+      "date": "2020-09-01",
+      "dateLabel": "Sep 2020",
+      "kind": "work",
+      "title": "Solutions Architect",
+      "organization": "Tyme Wear",
+      "location": "Greater Boston",
+      "summary": "Cloud architect and full-stack developer: cost optimization on AWS, serverless backend decomposition, SPA frontend architecture and IaC onboarding.",
+      "tags": ["AWS", "Serverless", "IaC", "SPA"]
+    },
+    {
+      "date": "2019-10-01",
+      "dateLabel": "Oct 2019",
+      "kind": "work",
+      "title": "Senior Software Development Engineer",
+      "organization": "Roche",
+      "location": "Barcelona Area, Spain",
+      "summary": "Modernized a monolith into event-driven microservices, increased deployment frequency and introduced ephemeral environments and contract testing.",
+      "tags": ["Microservices", "React", "Spring Boot", "Kubernetes"]
+    },
+    {
+      "date": "2018-04-01",
+      "dateLabel": "Apr 2018",
+      "kind": "work",
+      "title": "Professional Development Analyst",
+      "organization": "GFT Group",
+      "location": "Barcelona Area, Spain",
+      "summary": "Refactored a monolithic Spring Boot application into microservices, built CI/CD for container deployments and created a React community of practice.",
+      "tags": ["Microservices", "CI/CD", "React", "OpenShift"]
+    }
+  ]
+}
