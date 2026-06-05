@@ -86,8 +86,19 @@ export default function App() {
       <section className="hero">
         <div className="hero-copy">
           <div className="eyebrow-pill">Selected portfolio</div>
-          <h1>{profile.name}</h1>
-          <p className="hero-headline">{profile.headline}</p>
+          <div className="hero-title-row">
+            <img
+              className="avatar"
+              src={profile.avatarUrl}
+              alt={`Foto de perfil de ${profile.name}`}
+              loading="eager"
+              decoding="async"
+            />
+            <div className="hero-title-copy">
+              <h1>{profile.name}</h1>
+              <p className="hero-headline">{profile.headline}</p>
+            </div>
+          </div>
           <p className="hero-summary">{profile.summary}</p>
         </div>
 
