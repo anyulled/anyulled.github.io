@@ -26,16 +26,12 @@ jobs:
         with:
           node-version: 24
 
-      - name: Enable pnpm
+      - name: Install and build
         run: |
           corepack enable
           corepack prepare pnpm@11.5.2 --activate
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm build
+          pnpm install --frozen-lockfile
+          pnpm build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
