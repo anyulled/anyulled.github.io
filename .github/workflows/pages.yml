@@ -26,10 +26,12 @@ jobs:
         with:
           node-version: 24
 
+      - name: Install pnpm
+        run: npm install -g pnpm@11.5.2
+
       - name: Install and build
         run: |
-          corepack enable
-          corepack prepare pnpm@11.5.2 --activate
+          pnpm --version
           pnpm install --frozen-lockfile
           pnpm build
 
