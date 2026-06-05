@@ -1,3 +1,0 @@
-display_name: Team Topologies and Cognitive Load Analyzer
-short_description: Infer team topology signals, cognitive load, and Conway-style boundary friction from code.
-default_prompt: Analyze the repository structure, dependencies, churn, and ownership clues to infer likely stream-aligned, platform, complicated-subsystem, and enabling areas. Report cognitive load hotspots, boundary friction, and supporting file-line evidence using static analysis only.
