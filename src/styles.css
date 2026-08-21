@@ -343,6 +343,10 @@ a {
 .date-badge { display: flex; flex-wrap: wrap; gap: 7px; color: var(--muted); font-size: 0.82rem; font-weight: 700; }
 .upcoming { color: #946b04; }
 .type-label { padding: 4px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.72rem; font-weight: 800; text-transform: capitalize; }
+.type-label--conference { background: #ead9df; color: #76253c; }
+.type-label--meetup { background: #dce8f5; color: #163e68; }
+.type-label--open-space { background: #dcecdf; color: #26703f; }
+.type-label--workshop { background: #f8e4cd; color: #a55412; }
 .period-line { margin: 16px 0 0 !important; color: var(--accent) !important; font-weight: 700; }
 .link-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .link-row a { padding: 8px 10px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 0.82rem; font-weight: 800; }

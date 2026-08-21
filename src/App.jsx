@@ -19,6 +19,7 @@ function formatDate(date, options = { year: 'numeric', month: 'short', day: 'num
 function formatMonth(date) { return formatDate(date, { month: 'short', year: 'numeric' }); }
 function sortDescending(items) { return [...items].sort((a, b) => new Date(b.date) - new Date(a.date)); }
 function isUpcoming(date) { return Boolean(date) && date > new Date().toISOString().slice(0, 10); }
+function typeClassName(type) { return type ? `type-label--${type.toLowerCase().replace(/\s+/g, '-')}` : ''; }
 
 function SectionTitle({ eyebrow, title, description }) {
   return <div className="section-title"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div><p>{description}</p></div>;
@@ -64,7 +65,7 @@ function ChampionOverview({ champion }) {
 }
 
 function EvidenceCard({ item, children, date = true }) {
-  return <article className="evidence-card"><div className="evidence-card-top"><LogoOrFallback item={item} /><div className="evidence-card-heading"><div className="evidence-meta">{date && <DateBadge date={item.date} dateLabel={item.dateLabel || item.period} />}{item.type ? <span className="type-label">{item.type}</span> : null}</div><h3>{item.title || item.name || item.organization || item.company}</h3><strong>{item.organization || item.name || item.company}</strong></div></div>{item.description ? <p>{item.description}</p> : null}{children}<ExternalLinks links={item.links} /></article>;
+  return <article className="evidence-card"><div className="evidence-card-top"><LogoOrFallback item={item} /><div className="evidence-card-heading"><div className="evidence-meta">{date && <DateBadge date={item.date} dateLabel={item.dateLabel || item.period} />}{item.type ? <span className={`type-label ${typeClassName(item.type)}`}>{item.type}</span> : null}</div><h3>{item.title || item.name || item.organization || item.company}</h3><strong>{item.organization || item.name || item.company}</strong></div></div>{item.description ? <p>{item.description}</p> : null}{children}<ExternalLinks links={item.links} /></article>;
 }
 function MembershipsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Memberships & volunteer work" title="Community commitments" description="Organizations and initiatives where I contribute time, mentorship, and technical community leadership." /><div className="evidence-grid">{champion.memberships.map((item) => <EvidenceCard key={item.name} item={item} date={false}><p className="period-line">{item.date}</p></EvidenceCard>)}</div></section>; }
 function EventsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Events organized" title="Creating places to meet and learn" description="Conferences, meetups, open spaces, and hands-on workshops organized across the Barcelona community." /><div className="evidence-grid">{champion.events.map((item) => <EvidenceCard key={`${item.date}-${item.name}-${item.description}`} item={{ ...item, title: item.description, organization: item.name }} />)}</div></section>; }
