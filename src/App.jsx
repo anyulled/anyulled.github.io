@@ -17,6 +17,7 @@ const logoAliases = {
   'talentarena': 'talent-arena',
   'ingrammicro': 'ingram-micro',
   'globalsoftwarearchitecturesummit': 'gsas',
+  'venezolanodecredito': 'venezolanocredito',
 };
 
 function formatDate(date, options = { year: 'numeric', month: 'short', day: 'numeric' }) {
