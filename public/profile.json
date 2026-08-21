@@ -1683,6 +1683,15 @@
             "skills": [
               "Java"
             ]
+          },
+          {
+            "name": "Bank of Venezuela Migration",
+            "period": "Oct 2013 - Mar 2014",
+            "description": "Apps migration to a new Spring MVC architecture. Architecture: Spring 3, Struts 2, JDBC, Oracle WebLogic, and Oracle 11g. Client: Bank of Venezuela.",
+            "skills": [
+              "Spring",
+              "Spring Boot"
+            ]
           }
         ]
       },
