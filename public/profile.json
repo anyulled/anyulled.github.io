@@ -1582,7 +1582,33 @@
           "struts",
           "struts 2"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Debt",
+            "period": "May 2015 - Jul 2016",
+            "description": "Credit Management Web Application for internal use.",
+            "skills": [
+              "jQuery",
+              "Oracle Applications"
+            ]
+          },
+          {
+            "name": "Risk & Credit Analysis",
+            "period": "May 2015 - Jul 2016",
+            "description": "Risk & Credit Analysis System. Architecture: Java 1.6, Oracle 11G, Struts2, Spring Framework 3, jQuery 1.7, jQuery UI, OJDBC, iText, Log4j, and JBoss Server 7.1.",
+            "skills": [
+              "Java"
+            ]
+          },
+          {
+            "name": "Java v.4 to v.8 Upgrade",
+            "period": "Apr 2016 - Jun 2016",
+            "description": "Internal systems migration from OC4J Server Java 1.4 applications to Java 1.8 under WebLogic 12c.",
+            "skills": [
+              "Java"
+            ]
+          }
+        ]
       },
       {
         "company": "TCS Consulting",
