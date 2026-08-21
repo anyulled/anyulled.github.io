@@ -3,7 +3,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/100741?v=4",
   "headline": "Senior Solution Architect leading cross-team delivery and platform decisions at GFT",
   "location": "Greater Barcelona Metropolitan Area",
-  "summary": "Senior Architect at GFT Technologies with 15+ years building software, shaping architectures and supporting teams across delivery, pre-sales, teaching and community work.",
+  "summary": "Senior Architect at GFT Technologies with 20+ years building software, shaping architectures and supporting teams across delivery, pre-sales, teaching and community work.",
   "contact": {
     "phone": "638802609",
     "email": "anyulled@gmail.com",
@@ -13,7 +13,7 @@
   "highlights": [
     {
       "label": "Experience",
-      "value": "15+ years"
+      "value": "20+ years"
     },
     {
       "label": "Focus",
@@ -224,7 +224,7 @@
       {
         "date": "2019-present",
         "name": "Barcelona Jug Board member",
-        "description": "Jbcnconf conference & meetuporganization",
+        "description": "Jbcnconf conference & meetup organization",
         "links": [
           {
             "label": "Details",
@@ -268,6 +268,18 @@
     ],
     "events": [
       {
+        "date": "2026-10-16",
+        "name": "Software Crafters Barcelona",
+        "type": "conference",
+        "description": "Software Craftmanship Conference in Barcelona",
+        "links": [
+          {
+            "label": "Details",
+            "url": "https://softwarecrafters.barcelona/"
+          }
+        ]
+      },
+      {
         "date": "2026-06-16",
         "name": "Devbcn",
         "type": "conference",
@@ -307,7 +319,7 @@
         "date": "2026-06-09",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Java meetup",
+        "description": "Java meetup: Data-Oriented Programming",
         "links": [
           {
             "label": "Details",
@@ -367,7 +379,7 @@
         "date": "2025-11-08",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Code retreat",
+        "description": "Global Day of Code retreat",
         "links": [
           {
             "label": "Details",
@@ -499,7 +511,7 @@
         "date": "2024-11-09",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "code retreat",
+        "description": "Global Day of Code retreat",
         "links": [
           {
             "label": "Details",
@@ -511,11 +523,23 @@
         "date": "2024-10-30",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Generative AI java apss with test containers",
+        "description": "Generative AI java apps with test containers",
         "links": [
           {
             "label": "Details",
             "url": "https://www.meetup.com/barcelonajug/events/304141020/"
+          }
+        ]
+      },
+      {
+        "date": "2024-10-25",
+        "name": "Software Crafters Barcelona",
+        "type": "conference",
+        "description": "Software Craftmanship Conference in Barcelona",
+        "links": [
+          {
+            "label": "Details",
+            "url": "https://softwarecrafters.barcelona/2024/index.html"
           }
         ]
       },
@@ -1051,7 +1075,7 @@
         "date": "2020-11-06",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Code retreat",
+        "description": "Global Day of Code retreat",
         "links": [
           {
             "label": "Details",
@@ -1207,7 +1231,7 @@
       {
         "date": "2024-04-21",
         "name": "InnoIT meetup",
-        "description": "Refactoring",
+        "description": "Refactoring Kata",
         "links": [
           {
             "label": "Details",
@@ -1270,7 +1294,26 @@
           "spring cloud streams",
           "testContainers"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Ibercaja",
+            "period": "Mar 2026 - Aug 2026",
+            "associatedWith": "GFT Technologies",
+            "summary": "Modernization to cloud-native event-driven architecture.",
+            "skills": [
+              "Solution Architecture",
+              "Software Architectural Design",
+              "Cloud-native Architecture",
+              "Event-driven Architecture",
+              "Modernization",
+              "Technical Leadership",
+              "Solution Design",
+              "Stakeholder Collaboration"
+            ],
+            "article": "IBERCAJA Y FUJITSU AMPLÍAN SU ALIANZA ESTRATÉGICA",
+            "articleSummary": "Ibercaja y Fujitsu firman un acuerdo estratégico para impulsar la transformación digital del Banco a través de la modernización de su centro de datos"
+          }
+        ]
       },
       {
         "company": "Ingram Micro",

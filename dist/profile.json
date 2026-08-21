@@ -1294,7 +1294,26 @@
           "spring cloud streams",
           "testContainers"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Ibercaja",
+            "period": "Mar 2026 - Aug 2026",
+            "associatedWith": "GFT Technologies",
+            "summary": "Modernization to cloud-native event-driven architecture.",
+            "skills": [
+              "Solution Architecture",
+              "Software Architectural Design",
+              "Cloud-native Architecture",
+              "Event-driven Architecture",
+              "Modernization",
+              "Technical Leadership",
+              "Solution Design",
+              "Stakeholder Collaboration"
+            ],
+            "article": "IBERCAJA Y FUJITSU AMPLÍAN SU ALIANZA ESTRATÉGICA",
+            "articleSummary": "Ibercaja y Fujitsu firman un acuerdo estratégico para impulsar la transformación digital del Banco a través de la modernización de su centro de datos"
+          }
+        ]
       },
       {
         "company": "Ingram Micro",
