@@ -1421,7 +1421,43 @@
           "Spring state machine",
           "TestContainers"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Device Data Adapter",
+            "period": "Nov 2021 - Apr 2022",
+            "description": "An interface to allow connectivity from lab instruments to the Lab & Network Integrator.",
+            "skills": [
+              "AWS",
+              "Docker",
+              "GitLab CI/CD",
+              "Helm",
+              "Java",
+              "Kubernetes",
+              "Maven",
+              "Software Architectural Design",
+              "Spring Boot"
+            ]
+          },
+          {
+            "name": "HL7 Data Services",
+            "period": "Jan 2022 - Apr 2022",
+            "description": "A containerized Java runtime to extract and adapt data from HL7 instruments and send anonymized data to the cloud via AWS IoT.",
+            "skills": [
+              "AWS IoT",
+              "Java",
+              "Software Architectural Design"
+            ]
+          },
+          {
+            "name": "Lab & Network Integrator",
+            "period": "Jan 2021 - Nov 2021",
+            "description": "An ETL software gathering data from customers' instruments at the edge and aggregating them in the cloud.",
+            "skills": [
+              "Java",
+              "Kubernetes"
+            ]
+          }
+        ]
       },
       {
         "company": "GFT",
