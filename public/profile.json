@@ -1631,6 +1631,14 @@
             "skills": [
               "Java"
             ]
+          },
+          {
+            "name": "Contracts",
+            "period": "Jul 2015 - Jul 2015",
+            "description": "Credit instruments creation and printing management. Architecture: Java 1.6, Struts 2, Spring MVC, JDBC, Oracle 11g, jQuery, Twitter Bootstrap, and iText.",
+            "skills": [
+              "Java"
+            ]
           }
         ]
       },
