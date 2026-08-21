@@ -1309,9 +1309,18 @@
               "Technical Leadership",
               "Solution Design",
               "Stakeholder Collaboration"
+            ]
+          },
+          {
+            "name": "Digital Upgrade",
+            "period": "Feb 2026 - May 2026",
+            "associatedWith": "GFT Technologies",
+            "summary": "Enterprise Architect role for DB Germany.",
+            "skills": [
+              "Google Cloud Platform (GCP)",
+              "Software Architecture"
             ],
-            "article": "IBERCAJA Y FUJITSU AMPLÍAN SU ALIANZA ESTRATÉGICA",
-            "articleSummary": "Ibercaja y Fujitsu firman un acuerdo estratégico para impulsar la transformación digital del Banco a través de la modernización de su centro de datos"
+            "article": "Open Banking | Beyond PSD2 | Deutsche Bank API Program"
           }
         ]
       },
