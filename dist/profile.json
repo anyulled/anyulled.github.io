@@ -1708,7 +1708,17 @@
           "spring framework",
           "struts 2"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Simm 4.0",
+            "period": "Feb 2009 - Sep 2013",
+            "description": "A massive market integrated system and web platform for the bank-insurance business. Architecture: Apache Tomcat, Spring 2, Struts 2, Hibernate, and Oracle.",
+            "skills": [
+              "Cascading Style Sheets (CSS)",
+              "Java"
+            ]
+          }
+        ]
       }
     ],
     "openSource": [
