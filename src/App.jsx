@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { BrowserRouter, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, NavLink, Outlet, Route, Routes } from 'react-router-dom';
 
 const KIND_LABELS = { work: 'Experience', teaching: 'Teaching', community: 'Community', publication: 'Publication' };
 const championSections = [
@@ -101,9 +101,7 @@ function HomePage({ profile }) {
 
 function JavaChampionLayout({ profile }) {
   const champion = profile.javaChampion;
-  const location = useLocation();
-  const sectionTitle = location.pathname === '/java-champion' ? 'Java Champion profile' : 'Java Champion evidence';
-  return <><section className="champion-hero"><div><span className="eyebrow-pill">Java Champion</span><h1>{sectionTitle}</h1><p>{champion.intro}</p></div><div className="champion-hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" role="img"><path d="M10 18h23v9.5A10.5 10.5 0 0 1 22.5 38h-2A10.5 10.5 0 0 1 10 27.5V18Zm23 4h4a5 5 0 0 1 0 10h-4" /><path d="M14 10c0 3 3 3 3 6m7-6c0 3 3 3 3 6" /></svg></div></section><nav className="champion-nav" aria-label="Java Champion sections">{championSections.map((section) => <NavLink key={section.to} to={section.to} end={section.end}>{section.label}</NavLink>)}</nav><Outlet context={{ profile, champion }} /></>;
+  return <><section className="champion-hero"><div><span className="eyebrow-pill">Java Champion</span><h1>Java Champion profile</h1><p>{champion.intro}</p></div><div className="champion-hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" role="img"><path d="M10 18h23v9.5A10.5 10.5 0 0 1 22.5 38h-2A10.5 10.5 0 0 1 10 27.5V18Zm23 4h4a5 5 0 0 1 0 10h-4" /><path d="M14 10c0 3 3 3 3 6m7-6c0 3 3 3 3 6" /></svg></div></section><nav className="champion-nav" aria-label="Java Champion sections">{championSections.map((section) => <NavLink key={section.to} to={section.to} end={section.end}>{section.label}</NavLink>)}</nav><Outlet context={{ profile, champion }} /></>;
 }
 
 function ChampionOverview({ champion }) {
