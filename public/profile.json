@@ -1659,7 +1659,24 @@
           "spring mvc",
           "struts 2"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Manual Billing",
+            "period": "Sep 2013 - Apr 2015",
+            "description": "Movilnet's internal and external manual billing administration. Architecture: Java, Spring 3, Struts 2.5, OpenJDK 6, LDAP, PostgreSQL 9, J2EE, and JBoss Server.",
+            "skills": [
+              "Java"
+            ]
+          },
+          {
+            "name": "Online Prepaid Services",
+            "period": "Jan 2014 - Apr 2015",
+            "description": "Movilnet's CDMA mobile accounts administration. Client: Movilnet. Architecture: Struts, Spring, OC4J, LDAP, PostgreSQL, and Oracle.",
+            "skills": [
+              "Java"
+            ]
+          }
+        ]
       },
       {
         "company": "Aon Benfield Venezuela",
