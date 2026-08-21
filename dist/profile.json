@@ -1675,6 +1675,14 @@
             "skills": [
               "Java"
             ]
+          },
+          {
+            "name": "MCP - Mecanismo para el control de seguimiento de la Providencia",
+            "period": "Jan 2015 - Feb 2015",
+            "description": "Client: Movilnet. Architecture: Java, OC4J, Spring MVC, and Struts.",
+            "skills": [
+              "Java"
+            ]
           }
         ]
       },
