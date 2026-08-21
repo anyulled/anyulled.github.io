@@ -384,9 +384,6 @@ a {
 .project-detail-meta strong { color: var(--ink); font-size: 1rem; }
 .project-detail-meta span { color: var(--muted); font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
 .project-detail > p { margin: 9px 0 0; color: var(--muted); line-height: 1.5; }
-.project-association { display: inline-block; margin-top: 8px; color: var(--accent); font-size: 0.8rem; font-weight: 700; }
-.project-article { padding-top: 10px; border-top: 1px solid rgba(45, 92, 140, 0.14); font-size: 0.82rem; }
-.project-article strong { color: var(--ink); }
 .project-skill-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 11px; }
 .project-skill-list span { padding: 6px 8px; border-radius: 8px; background: rgba(45, 92, 140, 0.1); color: #31577c; font-size: 0.74rem; font-weight: 700; }
 

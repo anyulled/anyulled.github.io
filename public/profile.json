@@ -1298,8 +1298,7 @@
           {
             "name": "Ibercaja",
             "period": "Mar 2026 - Aug 2026",
-            "associatedWith": "GFT Technologies",
-            "summary": "Modernization to cloud-native event-driven architecture.",
+            "description": "Modernization to cloud-native event-driven architecture.",
             "skills": [
               "Solution Architecture",
               "Software Architectural Design",
@@ -1314,13 +1313,11 @@
           {
             "name": "Digital Upgrade",
             "period": "Feb 2026 - May 2026",
-            "associatedWith": "GFT Technologies",
-            "summary": "Enterprise Architect role for DB Germany.",
+            "description": "Enterprise Architect role for DB Germany.",
             "skills": [
               "Google Cloud Platform (GCP)",
               "Software Architecture"
-            ],
-            "article": "Open Banking | Beyond PSD2 | Deutsche Bank API Program"
+            ]
           }
         ]
       },
