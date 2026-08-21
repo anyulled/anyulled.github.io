@@ -16,6 +16,7 @@ const logoAliases = {
   'softwarecraftersbarcelona': 'scnbcn',
   'talentarena': 'talent-arena',
   'ingrammicro': 'ingram-micro',
+  'globalsoftwarearchitecturesummit': 'gsas',
 };
 
 function formatDate(date, options = { year: 'numeric', month: 'short', day: 'numeric' }) {

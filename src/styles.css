@@ -344,8 +344,8 @@ a {
   display: grid;
   place-items: center;
   flex: 0 0 auto;
-  width: 52px;
-  height: 52px;
+  width: 58px;
+  height: 58px;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -356,7 +356,7 @@ a {
 }
 
 .brand-mark img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
-.brand-mark--large { width: 64px; height: 64px; border-radius: 19px; }
+.brand-mark--large { width: 70px; height: 70px; border-radius: 19px; }
 .evidence-card-heading { min-width: 0; }
 .evidence-card-heading h3 { margin: 7px 0 4px; font-size: 1.08rem; line-height: 1.3; }
 .evidence-card-heading strong { color: var(--accent); font-size: 0.9rem; }
