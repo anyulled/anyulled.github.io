@@ -10,6 +10,13 @@ const championSections = [
   { to: '/java-champion/projects', label: 'Projects & tools' },
   { to: '/java-champion/open-source', label: 'Open source' },
 ];
+const logoAssets = import.meta.glob('./logos/*.{png,webp,jpg,jpeg,svg}', { eager: true, query: '?url', import: 'default' });
+const logoAliases = {
+  'barcelonajug': 'bcnjug',
+  'softwarecraftersbarcelona': 'scnbcn',
+  'talentarena': 'talent-arena',
+  'ingrammicro': 'ingram-micro',
+};
 
 function formatDate(date, options = { year: 'numeric', month: 'short', day: 'numeric' }) {
   const parsed = new Date(`${date}T00:00:00Z`);
@@ -44,6 +51,17 @@ function groupEventsByYearAndMonth(events) {
         .map(([key, items]) => ({ key, label: key === 'undated' ? 'Undated' : monthLabel(key), items: sortDescending(items) })),
     }));
 }
+function resolveLogoPath(item) {
+  if (item.logoPath) return item.logoPath;
+  const label = item.organization || item.name || item.company || '';
+  const normalized = label.toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const target = logoAliases[normalized] || normalized;
+  const match = Object.entries(logoAssets).find(([path]) => {
+    const filename = path.split('/').pop().split('.')[0].toLowerCase().replace(/[^a-z0-9]+/g, '');
+    return filename === target.replace(/[^a-z0-9]+/g, '');
+  });
+  return match?.[1];
+}
 
 function SectionTitle({ eyebrow, title, description }) {
   return <div className="section-title"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div><p>{description}</p></div>;
@@ -52,7 +70,8 @@ function SectionTitle({ eyebrow, title, description }) {
 function LogoOrFallback({ item, size = 'medium' }) {
   const label = item.organization || item.name || item.company || 'Java';
   const initials = label.split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join('').toUpperCase();
-  return <div className={`brand-mark brand-mark--${size}`}>{item.logoPath ? <img src={item.logoPath} alt={`${label} logo`} loading="lazy" /> : <span aria-label={label}>{initials}</span>}</div>;
+  const logoPath = resolveLogoPath(item);
+  return <div className={`brand-mark brand-mark--${size}`}>{logoPath ? <img src={logoPath} alt={`${label} logo`} loading="lazy" /> : <span aria-label={label}>{initials}</span>}</div>;
 }
 
 function ExternalLinks({ links = [] }) {
