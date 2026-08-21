@@ -1535,7 +1535,26 @@
           "spring state machine",
           "vavr"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "DB Distribute",
+            "period": "Jul 2016 - Oct 2019",
+            "description": "CP Funded and unfunded de-risking instrument on trade finance. Client: Deutsche Bank. Related patterns: API gateway, Service Discovery (Eureka), Circuit Breaker (Hystrix), Intelligent Routing (Zuul), and Client-Side Load Balancing (Ribbon).",
+            "skills": [
+              "Microservices",
+              "Spring Cloud"
+            ]
+          },
+          {
+            "name": "De-risk Decision Service",
+            "period": "Jun 2018 - Oct 2019",
+            "description": "A reactive, non-blocking, asynchronous, and event-driven web service collecting JMS messages from a Queue and triggering HTTP REST requests to offer Portfolio Risk Participation (PRP), Private risk insurance (PRI), irrevocable reimbursement undertaking (IRU), and other financial instruments to de-risk trade finance limit requests.",
+            "skills": [
+              "Kotlin",
+              "Kubernetes"
+            ]
+          }
+        ]
       },
       {
         "company": "Venezolano de Credito",
