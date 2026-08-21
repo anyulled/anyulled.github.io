@@ -1607,6 +1607,30 @@
             "skills": [
               "Java"
             ]
+          },
+          {
+            "name": "EPA Statistics",
+            "period": "Mar 2016 - May 2016",
+            "description": "EPA Statistics Web Application, generating reports including daily flow analysis, balance, credits, accounts, liquidity gap, investments, payroll and providers payments, and credit cards. Architecture: Java 4, OAS, Oracle 11g, JSP Servlets.",
+            "skills": [
+              "Java"
+            ]
+          },
+          {
+            "name": "Requisitoria",
+            "period": "May 2015 - May 2016",
+            "description": "Requests Production Passes Management System. Architecture: Java 1.4, Struts 1.2, Servlet, Oracle Application Server, JDBC, jQuery 1.5, jQuery UI, and Oracle 11g.",
+            "skills": [
+              "Java"
+            ]
+          },
+          {
+            "name": "Visit Management & Client Engagement",
+            "period": "Oct 2015 - Mar 2016",
+            "description": "Architecture: JBoss 7.1, Oracle 11G, Java 1.6, Struts 2, Spring 3, Twitter Bootstrap 3, jQuery 1.11, Apache Tiles, JSON, Ant, Jax-WS, OJdbc, Log4j, and iText.",
+            "skills": [
+              "Java"
+            ]
           }
         ]
       },
