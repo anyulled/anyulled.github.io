@@ -264,6 +264,58 @@
             "url": "https://hackupc.com/"
           }
         ]
+      },
+      {
+        "date": "Aug 2021 - Aug 2023",
+        "name": "Kubernetes SIG Docs Spanish Localization Team",
+        "organization": "Cloud Native Computing Foundation (CNCF)",
+        "description": "A member of the Kubernetes Spanish documentation translation group.",
+        "links": [
+          {
+            "label": "Cloud Native Glossary — Spanish",
+            "url": "https://kubernetes.io/es/docs/reference/glossary/"
+          },
+          {
+            "label": "Kubernetes website repository",
+            "url": "https://github.com/kubernetes/website"
+          }
+        ]
+      },
+      {
+        "date": "Oct 2022 - Oct 2022",
+        "name": "Mentor",
+        "organization": "Barcelona Digital Talent",
+        "description": "Participated as a mentor in the Jump2Digital event, helping full-stack teams to develop a technical solution for different challenges.",
+        "links": [
+          {
+            "label": "Home - Jump2Digital",
+            "url": "https://jump2digital.com/"
+          }
+        ]
+      },
+      {
+        "date": "Nov 2021 - Dec 2021",
+        "name": "Mentor",
+        "organization": "UPC School (Universitat Politècnica de Catalunya)",
+        "description": "Volunteered at TV3's bitsXlaMarato as a mentor during 36 hours in favor of mental health.",
+        "links": [
+          {
+            "label": "bitsXlaMarato",
+            "url": "https://www.3cat.cat/"
+          }
+        ]
+      },
+      {
+        "date": "Feb 2022 - Jul 2022",
+        "name": "Mentor",
+        "organization": "Barcelona Activa",
+        "description": "Volunteered as a mentor in the Mentoring + program, helping unemployed people to prepare to get a job in IT.",
+        "links": [
+          {
+            "label": "Mentoring +",
+            "url": "https://www.barcelonactiva.cat/"
+          }
+        ]
       }
     ],
     "events": [
