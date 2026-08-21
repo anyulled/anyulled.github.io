@@ -1456,6 +1456,51 @@
               "Java",
               "Kubernetes"
             ]
+          },
+          {
+            "name": "Dependency Manager",
+            "period": "Nov 2020 - Jan 2021",
+            "description": "A Gradle plugin to manage downloaded dependencies with several tuning options.",
+            "skills": [
+              "Gradle",
+              "Java"
+            ]
+          },
+          {
+            "name": "TFS to GIT",
+            "period": "Dec 2020 - Jan 2021",
+            "description": "A Java project to migrate from Microsoft Team Foundation to Git, converting internal files into classes.",
+            "skills": [
+              "Java",
+              "Team Foundation Server"
+            ]
+          },
+          {
+            "name": "Cobas Infinity",
+            "period": "Oct 2019 - Nov 2020",
+            "description": "Full analytics middleware for laboratory in vitro diagnostics.",
+            "skills": [
+              "Jenkins",
+              "Redux"
+            ]
+          },
+          {
+            "name": "Java package signing",
+            "period": "Apr 2020 - Aug 2020",
+            "description": "Designed an automated solution with Maven plugins and goals to sign and verify Java artifacts for all Roche Java projects and implemented it on the CI/CD production environment.",
+            "skills": [
+              "Jenkins",
+              "REST APIs"
+            ]
+          },
+          {
+            "name": "Anonymatic",
+            "period": "Mar 2020 - May 2020",
+            "description": "Database records obfuscation tool.",
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ]
           }
         ]
       },
