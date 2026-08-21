@@ -377,7 +377,7 @@ a {
 .project-heading h3 { margin: 5px 0 0; font-size: 1.15rem; }
 .project-heading p { margin: 5px 0 0; }
 .tool-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
-.tool-list span { padding: 7px 9px; border-radius: 9px; background: #f1f6fb; color: #31577c; font-size: 0.78rem; font-weight: 700; }
+.tool-list span { padding: 7px 9px; border-radius: 9px; background: #f1f6fb; color: #31577c; font-size: 0.78rem; font-weight: 700; text-transform: capitalize; }
 .project-list { display: grid; gap: 12px; margin-top: 20px; }
 .project-detail { padding: 15px; border: 1px solid rgba(45, 92, 140, 0.16); border-radius: 16px; background: linear-gradient(135deg, #f8fbff, #eef5fc); }
 .project-detail-meta { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }

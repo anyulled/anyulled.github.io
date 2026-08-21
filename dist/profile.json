@@ -1354,7 +1354,11 @@
             "description": "An Xvantage component responsible for catalog ingestion from vendors to subscriptions.",
             "skills": [
               "Docker Products",
-              "Java"
+              "Java",
+              "Spring Boot",
+              "Spring Cloud",
+              "Quartz",
+              "Reactive Java"
             ]
           },
           {
@@ -1363,7 +1367,8 @@
             "description": "A sophisticated data migration pipeline that facilitates the transition of subscription data from legacy PCI systems to modern SPS (SAP) systems. The project includes a robust reconciliation component that validates data integrity, identifies discrepancies, and ensures accurate financial calculations during country-level migrations.",
             "skills": [
               "Azure Kubernetes Service (AKS)",
-              "Python"
+              "Java",
+              "duckDB"
             ]
           },
           {
@@ -1376,12 +1381,15 @@
             ]
           },
           {
-            "name": "Feature Toggle solution",
+            "name": "Feature Toggle Solution",
             "period": "Nov 2022 - May 2024",
             "description": "A feature toggle solution based on the CNCF specification to decouple deployment from release.",
             "skills": [
               "Continuous Delivery",
-              "Software Architecture"
+              "Software Architecture",
+              "OpenFeature",
+              "OpenTelemetry",
+              "Kubernetes"
             ]
           },
           {
@@ -1534,7 +1542,8 @@
           "Spring boot",
           "spring cloud",
           "spring state machine",
-          "vavr"
+          "vavr",
+          "Zuul"
         ],
         "projects": [
           {
