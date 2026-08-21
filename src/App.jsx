@@ -20,6 +20,30 @@ function formatMonth(date) { return formatDate(date, { month: 'short', year: 'nu
 function sortDescending(items) { return [...items].sort((a, b) => new Date(b.date) - new Date(a.date)); }
 function isUpcoming(date) { return Boolean(date) && date > new Date().toISOString().slice(0, 10); }
 function typeClassName(type) { return type ? `type-label--${type.toLowerCase().replace(/\s+/g, '-')}` : ''; }
+function monthLabel(monthKey) {
+  const date = new Date(`${monthKey}-01T00:00:00Z`);
+  return new Intl.DateTimeFormat('en-GB', { month: 'long', timeZone: 'UTC' }).format(date);
+}
+function groupEventsByYearAndMonth(events) {
+  const years = new Map();
+  events.forEach((event) => {
+    const monthKey = event.date?.slice(0, 7) || 'undated';
+    const year = monthKey === 'undated' ? 'Undated' : monthKey.slice(0, 4);
+    if (!years.has(year)) years.set(year, new Map());
+    const months = years.get(year);
+    if (!months.has(monthKey)) months.set(monthKey, []);
+    months.get(monthKey).push(event);
+  });
+
+  return [...years.entries()]
+    .sort(([a], [b]) => b.localeCompare(a))
+    .map(([year, months]) => ({
+      year,
+      months: [...months.entries()]
+        .sort(([a], [b]) => b.localeCompare(a))
+        .map(([key, items]) => ({ key, label: key === 'undated' ? 'Undated' : monthLabel(key), items: sortDescending(items) })),
+    }));
+}
 
 function SectionTitle({ eyebrow, title, description }) {
   return <div className="section-title"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div><p>{description}</p></div>;
@@ -56,7 +80,7 @@ function JavaChampionLayout({ profile }) {
   const champion = profile.javaChampion;
   const location = useLocation();
   const sectionTitle = location.pathname === '/java-champion' ? 'Java Champion profile' : 'Java Champion evidence';
-  return <><section className="champion-hero"><div><span className="eyebrow-pill">Java Champion</span><h1>{sectionTitle}</h1><p>{champion.intro}</p></div><div className="champion-hero-mark" aria-hidden="true">☕</div></section><nav className="champion-nav" aria-label="Java Champion sections">{championSections.map((section) => <NavLink key={section.to} to={section.to} end={section.end}>{section.label}</NavLink>)}</nav><Outlet context={{ profile, champion }} /></>;
+  return <><section className="champion-hero"><div><span className="eyebrow-pill">Java Champion</span><h1>{sectionTitle}</h1><p>{champion.intro}</p></div><div className="champion-hero-mark" aria-hidden="true"><svg viewBox="0 0 48 48" role="img"><path d="M10 18h23v9.5A10.5 10.5 0 0 1 22.5 38h-2A10.5 10.5 0 0 1 10 27.5V18Zm23 4h4a5 5 0 0 1 0 10h-4" /><path d="M14 10c0 3 3 3 3 6m7-6c0 3 3 3 3 6" /></svg></div></section><nav className="champion-nav" aria-label="Java Champion sections">{championSections.map((section) => <NavLink key={section.to} to={section.to} end={section.end}>{section.label}</NavLink>)}</nav><Outlet context={{ profile, champion }} /></>;
 }
 
 function ChampionOverview({ champion }) {
@@ -68,7 +92,15 @@ function EvidenceCard({ item, children, date = true }) {
   return <article className="evidence-card"><div className="evidence-card-top"><LogoOrFallback item={item} /><div className="evidence-card-heading"><div className="evidence-meta">{date && <DateBadge date={item.date} dateLabel={item.dateLabel || item.period} />}{item.type ? <span className={`type-label ${typeClassName(item.type)}`}>{item.type}</span> : null}</div><h3>{item.title || item.name || item.organization || item.company}</h3><strong>{item.organization || item.name || item.company}</strong></div></div>{item.description ? <p>{item.description}</p> : null}{children}<ExternalLinks links={item.links} /></article>;
 }
 function MembershipsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Memberships & volunteer work" title="Community commitments" description="Organizations and initiatives where I contribute time, mentorship, and technical community leadership." /><div className="evidence-grid">{champion.memberships.map((item) => <EvidenceCard key={item.name} item={item} date={false}><p className="period-line">{item.date}</p></EvidenceCard>)}</div></section>; }
-function EventsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Events organized" title="Creating places to meet and learn" description="Conferences, meetups, open spaces, and hands-on workshops organized across the Barcelona community." /><div className="evidence-grid">{champion.events.map((item) => <EvidenceCard key={`${item.date}-${item.name}-${item.description}`} item={{ ...item, title: item.description, organization: item.name }} />)}</div></section>; }
+function EventTimelineCard({ item }) {
+  const event = { ...item, title: item.description, organization: item.name, description: '' };
+  return <div className="event-timeline-item"><span className="event-timeline-node" aria-hidden="true" /><EvidenceCard item={event} /></div>;
+}
+function EventsPage({ champion }) {
+  const yearGroups = groupEventsByYearAndMonth(champion.events);
+  const years = yearGroups.filter((group) => group.year !== 'Undated').length;
+  return <section className="section champion-section"><SectionTitle eyebrow="Events organized" title="Creating places to meet and learn" description="A reverse-chronological record of conferences, meetups, open spaces, and hands-on workshops organized across the Barcelona community." /><div className="event-overview-strip"><div><strong>{champion.events.length}</strong><span>events organized</span></div><div><strong>{years}</strong><span>years of activity</span></div><div><strong>{new Set(champion.events.map((item) => item.name)).size}</strong><span>community groups</span></div></div><div className="event-timeline">{yearGroups.map((yearGroup) => <section key={yearGroup.year} className="event-year"><div className="event-year-heading"><span className="event-year-rule" aria-hidden="true" /><h3>{yearGroup.year}</h3></div><div className="event-year-content">{yearGroup.months.map((month) => <div key={month.key} className="event-month"><div className="event-month-label"><span>{month.label}</span><small>{month.items.length} {month.items.length === 1 ? 'event' : 'events'}</small></div><div className="event-month-items">{month.items.map((item) => <EventTimelineCard key={`${item.date}-${item.name}-${item.description}`} item={item} />)}</div></div>)}</div></section>)}</div></section>;
+}
 function TalksPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Talks & workshops" title="Sharing the craft" description="Public sessions about Java, Spring, architecture, testing, and the practices that help teams deliver better software." /><div className="evidence-grid">{champion.talks.map((item) => <EvidenceCard key={`${item.date}-${item.name}-${item.description}`} item={{ ...item, title: item.description, organization: item.name }} />)}</div></section>; }
 function ProjectsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Java projects at work" title="Tools applied in real delivery contexts" description="One editable project entry per employer, with the Java ecosystem alphabetized for quick scanning. Project-level details can be added later." /><div className="project-grid">{champion.projects.map((item) => <article key={`${item.company}-${item.period}`} className="project-card"><div className="project-heading"><LogoOrFallback item={{ ...item, organization: item.company }} size="large" /><div><span className="card-kicker">{item.period}</span><h3>{item.company}</h3><p>{item.role}</p></div></div><div className="tool-list">{[...item.tools].sort((a, b) => a.localeCompare(b)).map((tool) => <span key={tool}>{tool}</span>)}</div></article>)}</div></section>; }
 function OpenSourcePage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Open source contribution" title="Giving back to the ecosystem" description="Projects where contributions and collaboration connect professional Java practice with the wider ecosystem." /><div className="evidence-grid">{champion.openSource.map((item) => <EvidenceCard key={item.name} item={item} date={false} />)}</div></section>; }
