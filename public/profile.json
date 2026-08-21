@@ -1346,7 +1346,53 @@
           "Spring boot",
           "TestContainers"
         ],
-        "projects": []
+        "projects": [
+          {
+            "name": "Catalog Gateway",
+            "period": "Jan 2024 - Dec 2025",
+            "description": "An Xvantage component responsible for catalog ingestion from vendors to subscriptions.",
+            "skills": [
+              "Docker Products",
+              "Java"
+            ]
+          },
+          {
+            "name": "PS1 - Load",
+            "period": "Apr 2025 - Dec 2025",
+            "description": "A sophisticated data migration pipeline that facilitates the transition of subscription data from legacy PCI systems to modern SPS (SAP) systems. The project includes a robust reconciliation component that validates data integrity, identifies discrepancies, and ensures accurate financial calculations during country-level migrations.",
+            "skills": [
+              "Azure Kubernetes Service (AKS)",
+              "Python"
+            ]
+          },
+          {
+            "name": "Xvantage",
+            "period": "Jan 2023 - Dec 2025",
+            "description": "The Xvantage digital experience platform is powered by a global real time data mesh containing many years of operating and transactions data, as well as several proprietary engines which are enhanced by artificial intelligence (AI) and machine learning. Ingram Micro's Cloud Marketplace is also integrated into Xvantage, allowing cloud solutions to be easily incorporated into solutions containing technology hardware, software, and professional services.",
+            "skills": [
+              "Azure Kubernetes Service (AKS)",
+              "Google Cloud Platform (GCP)"
+            ]
+          },
+          {
+            "name": "Feature Toggle solution",
+            "period": "Nov 2022 - May 2024",
+            "description": "A feature toggle solution based on the CNCF specification to decouple deployment from release.",
+            "skills": [
+              "Continuous Delivery",
+              "Software Architecture"
+            ]
+          },
+          {
+            "name": "CloudBlue Commerce Platform",
+            "period": "Apr 2022 - Jan 2024",
+            "description": "A multi-tier commerce platform that allows the launch of marketplaces.",
+            "skills": [
+              "Azure Kubernetes Service (AKS)",
+              "Kubernetes"
+            ]
+          }
+        ]
       },
       {
         "company": "Roche",
