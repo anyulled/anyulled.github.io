@@ -53,12 +53,14 @@ function groupEventsByYearAndMonth(events) {
 }
 function resolveLogoPath(item) {
   if (item.logoPath) return item.logoPath;
-  const label = item.organization || item.name || item.company || '';
-  const normalized = label.toLowerCase().replace(/[^a-z0-9]+/g, '');
-  const target = logoAliases[normalized] || normalized;
+  const labels = [item.organization, item.name, item.company, item.description].filter(Boolean);
+  const normalizedLabels = labels.map((label) => label.toLowerCase().replace(/[^a-z0-9]+/g, ''));
   const match = Object.entries(logoAssets).find(([path]) => {
-    const filename = path.split('/').pop().split('.')[0].toLowerCase().replace(/[^a-z0-9]+/g, '');
-    return filename === target.replace(/[^a-z0-9]+/g, '');
+    const filename = path.split('/').pop().split('.')[0].toLowerCase().replace(/[^a-z0-9]+/g, '').replace(/^logo/, '');
+    return normalizedLabels.some((label) => {
+      const target = logoAliases[label] || label;
+      return target.replace(/[^a-z0-9]+/g, '') === filename || target.includes(filename);
+    });
   });
   return match?.[1];
 }
