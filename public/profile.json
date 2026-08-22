@@ -263,7 +263,7 @@
         ]
       },
       {
-        "date": "2017-2022",
+        "date": "2017-2023",
         "name": "HackUpc",
         "description": "Hackathon Java Mentor. It's a 36-hours hackathon wehere students build projects for the sponsor challenges",
         "links": [
@@ -1902,6 +1902,7 @@
     "openSource": [
       {
         "name": "Jkube",
+        "description": "Eclipse Jkube contribution refactoring map-handling logic across modules to use standard Java Map.putIfAbsent and computeIfAbsent APIs, simplifying the implementation.",
         "links": [
           {
             "label": "Details",
@@ -1911,6 +1912,7 @@
       },
       {
         "name": "JReleaser",
+        "description": "Contributions to the announcement functionality, including Google Chat support and a Catalan translation.",
         "links": [
           {
             "label": "Details",
@@ -1928,6 +1930,7 @@
       },
       {
         "name": "Pet Clinic",
+        "description": "Spring PetClinic contributions focused on clearer AssertJ assertions, removal of redundant assertions and general test-suite refactoring.",
         "links": [
           {
             "label": "Details",
@@ -1939,6 +1942,286 @@
           }
         ]
       }
-    ]
+    ],
+    "nomination": {
+      "title": "Draft - Nomination Java Champion",
+      "subtitle": "Anyul Led Rivas Oropeza",
+      "documentPath": "/Anyul_Led_Rivas_Java_Champion_Nomination_Draft_v2.pdf",
+      "metadata": [
+        {
+          "label": "Nominee employer",
+          "value": "GFT"
+        },
+        {
+          "label": "Nominee title",
+          "value": "Senior Architect"
+        },
+        {
+          "label": "Nominee LinkedIn",
+          "value": "https://www.linkedin.com/in/anyulled"
+        },
+        {
+          "label": "Nominee GitHub",
+          "value": "https://github.com/anyulled"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Nominee Profile",
+          "paragraphs": [
+            "Anyul has been an active member of the Barcelona Java community since 2019. He began as a volunteer and later became a Barcelona JUG board member. His responsibilities have included event organization, finding venues, communication with speakers, brainstorming event formats, social media, partnerships, master-of-ceremony duties, recording sessions and publishing them on YouTube. His involvement has remained uninterrupted across changes of employer, from Roche to Ingram Micro and later GFT.",
+            "The community has more than 2,500 registered members, around 200 active members, and typical attendance of approximately 30 to 50 people per meetup. Anyul has organized or co-organized 41 Barcelona JUG activities during his time in the community, covering topics such as Java releases, Spring Boot, Quarkus, GraalVM, Testcontainers, OpenTelemetry, mutation testing, property-based testing, reactive Java, architecture and software craftsmanship.",
+            "Notable speakers brought to the community during this period include Victor Rentea, Alex Soto, Horacio Gonzalez, Christian Tzolov, Gregorz Piwowarek, Dmitry Chuyko, Philip Krenn, Edu Melendez, Joris Kuipers, Sergio del Amo, Andres Almiray, Max Rydahl Andersen, Ivan Badía and Jorge Hidalgo."
+          ]
+        },
+        {
+          "title": "Java Champions Are Leaders",
+          "subsections": [
+            {
+              "title": "Barcelona JUG",
+              "paragraphs": [
+                "Anyul has been an active member of the Barcelona Java community since 2019. He began as a volunteer and later became a Barcelona JUG board member. His responsibilities have included event organization, finding venues, communication with speakers, brainstorming event formats, social media, partnerships, master-of-ceremony duties, recording sessions and publishing them on YouTube. His involvement has remained uninterrupted across changes of employer, from Roche to Ingram Micro and later GFT.",
+                "The community has more than 2,500 registered members, around 200 active members, and typical attendance of approximately 30 to 50 people per meetup. Anyul has organized or co-organized all 41 Barcelona JUG activities recorded in his public profile, covering topics such as Java releases, Spring Boot, Quarkus, GraalVM, Testcontainers, OpenTelemetry, mutation testing, property-based testing, reactive Java, architecture and software craftsmanship.",
+                "Notable speakers brought to the community during this period include Victor Rentea, Alex Soto, Horacio Gonzalez, Christian Tzolov, Gregorz Piwowarek, Dmitry Chuyko, Philip Krenn, Edu Melendez, Joris Kuipers, Sergio del Amo, Andres Almiray, Max Rydahl Andersen, Ivan Badía and Jorge Hidalgo."
+              ],
+              "links": [
+                {
+                  "label": "Barcelona JUG",
+                  "url": "https://barcelonajug.org/"
+                },
+                {
+                  "label": "Java 25 meetup",
+                  "url": "https://www.meetup.com/barcelonajug/"
+                },
+                {
+                  "label": "Testing with Spring Boot & microservices",
+                  "url": "https://www.meetup.com/barcelonajug/"
+                },
+                {
+                  "label": "Spring Modulith workshop",
+                  "url": "https://spring.io/"
+                },
+                {
+                  "label": "Quarkus Tour meetup",
+                  "url": "https://www.meetup.com/barcelonajug/"
+                }
+              ]
+            },
+            {
+              "title": "JBCNConf and DevBcn",
+              "paragraphs": [
+                "Anyul started volunteering for JBCNConf after the 2019 edition. When the conference returned in 2021 after the pandemic interruption, he volunteered and served as CFP Committee member, configured the virtual conference platform, uploaded the recorded talks to Youtube, and served as track moderator. From 2022 onward he participated in every edition of DevBcn, the successor conference, contributing to both community operations and digital infrastructure.",
+                "His work has included maintaining the ticketing platform, configuring the CFP website, website design, social media, writing and distributing email newsletters for diverse audiences, design merchandising and printed material, sponsor-lead exports, the attendee feedback platform, photography coverage for speakers and the event, sending feedback forms to speakers, sponsors and attendees, and publication of recorded sessions on YouTube. Recent editions have reached approximately 1,200 attendees."
+              ],
+              "links": [
+                {
+                  "label": "DevBcn",
+                  "url": "https://devbcn.com/"
+                },
+                {
+                  "label": "JBCNConf 2022",
+                  "url": "https://web.archive.org/web/20221001000000/https://jbcnconf.com/"
+                },
+                {
+                  "label": "JBCNConf 2021",
+                  "url": "https://web.archive.org/web/20211001000000/https://jbcnconf.com/"
+                }
+              ]
+            },
+            {
+              "title": "Software Crafters Barcelona",
+              "paragraphs": [
+                "Since 2021, Anyul has also contributed to Software Crafters Barcelona, first as a volunteer and later as a board member. He helps organize the annual conference, find sponsors, participate in the CFP committee, and design community activities. More importantly, he personally organizes and facilitates coding dojos using Java but not exclusively, centered on TDD, refactoring, functional programming and architectural design.",
+                "His public trajectory records 23 Software Crafters Barcelona activities, including diverse refactoring and TDD katas, Global Day of Code Retreat events, architecture katas and the annual Software Crafters conference. This work complements his Java community activity by creating a regular place where developers can practice techniques rather than only hear about them."
+              ],
+              "links": [
+                {
+                  "label": "Software Crafters Barcelona",
+                  "url": "https://softwarecrafters.barcelona/"
+                },
+                {
+                  "label": "TDD Kata",
+                  "url": "https://softwarecrafters.barcelona/"
+                },
+                {
+                  "label": "Architecture Kata",
+                  "url": "https://softwarecrafters.barcelona/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Java Champions Are Technical Luminaries",
+          "subsections": [
+            {
+              "title": "Architecture and Java Modernization",
+              "paragraphs": [
+                "Anyul has worked professionally with Java since 2009. His experience spans Java 1.4, 1.6, 8, 11, 17, 21, and 25. He has also worked on long-lived systems that required migration from older Java versions. His technical work has included Spring and Spring Boot, Maven and Gradle, JUnit, AssertJ, Mockito, Testcontainers, ArchUnit, contract testing, Hibernate/JPA, reactive Java, Kafka, OpenTelemetry, OpenFeature, Quarkus and cloud-native deployment patterns.",
+                "Across his professional career, Anyul has participated in modernizing internal applications. He migrated applications from Java 1.4 to Java 8 and from OC4J to WebLogic. At GFT he worked with Java 8, Spring Boot and Spring Cloud on distributed systems. At Roche he worked with Java 8 and 11 on Spring Boot and Kubernetes applications and designed an automated Maven-based solution to sign and verify Java artifacts. At Ingram Micro he led the Platform Engineering team as Principal Software Engineer with Java 17, Spring Boot, Quarkus, OpenFeature, OpenTelemetry and Testcontainers. In his current role at GFT he works with Java 21, Maven, JSpecify, OpenRewrite, PMD, Kafka, JPA and Testcontainers on modernization initiatives.",
+                "He has also publicly advocated pragmatic architectural modernization. At Spring I/O 2024 he co-delivered a workshop on transitioning from a monolithic architecture to Spring Modulith, reflecting his position that modular monoliths can be a better choice than prematurely adopting microservices when team and domain boundaries do not justify distributed-system complexity."
+              ],
+              "links": [
+                {
+                  "label": "Spring I/O 2024 - Spring Modulith workshop",
+                  "url": "https://2024.springio.net/"
+                }
+              ]
+            },
+            {
+              "title": "Advanced Java Teaching Artifacts",
+              "paragraphs": [
+                "As an Advanced Java instructor at arol.dev, Anyul developed and taught hands-on material supported by a set of public Java repositories. The material covers clean architecture and refactoring, service decomposition, synchronous communication, API versioning, distributed transactions and integration testing with Testcontainers. These repositories make the technical content of the course directly inspectable and reusable beyond the classroom."
+              ],
+              "links": [
+                {
+                  "label": "arol.dev GitHub organization",
+                  "url": "https://github.com/arol-dev"
+                },
+                {
+                  "label": "Advanced Java - saga lab",
+                  "url": "https://github.com/arol-dev"
+                },
+                {
+                  "label": "Advanced Java - distributed transactions",
+                  "url": "https://github.com/arol-dev"
+                },
+                {
+                  "label": "Advanced Java - Testcontainers",
+                  "url": "https://github.com/arol-dev"
+                }
+              ]
+            },
+            {
+              "title": "Open-Source Contributions",
+              "paragraphs": [
+                "Anyul has made focused contributions to several Java ecosystem projects, particularly where they overlap with his interest in testing, refactoring and developer tooling.",
+                "Spring PetClinic: in 2024 he authored twelve commits focused primarily on improving the test suite, including clearer and more consistent AssertJ assertions, removal of redundant assertions and general test-code refactoring.",
+                "Eclipse Jkube: in 2021 he proposed PR #575 and it was merged, refactoring map-handling logic across several modules to use standard Java Map.putIfAbsent and computeIfAbsent APIs, removing redundant utility code and simplifying the implementation.",
+                "JReleaser: as an early adopter and contributor in 2021, he added Google Chat support to the announcement functionality and later contributed the Catalan translation. Project lead Andres Almiray publicly highlighted Anyul as an exemplary contributor during a community presentation."
+              ],
+              "links": [
+                {
+                  "label": "Spring PetClinic commits",
+                  "url": "https://github.com/spring-projects/spring-petclinic/commits?author=anyulled"
+                },
+                {
+                  "label": "Eclipse JKube PR #575",
+                  "url": "https://github.com/eclipse-jkube/jkube/pull/575"
+                },
+                {
+                  "label": "JReleaser commits",
+                  "url": "https://github.com/jreleaser/jreleaser/commits?author=anyulled"
+                },
+                {
+                  "label": "Andres Almiray highlighting the contribution",
+                  "url": "https://www.youtube.com/live/gVyh-nq8-OU?si=7BxH0esOtvPeoYtQ&t=3534"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Java Champions Are Independent-Minded and Credible",
+          "paragraphs": [
+            "Anyul's community work is independent of his employers. His participation in Barcelona JUG and Software Crafters Barcelona has continued uninterrupted while he worked at Roche, Ingram Micro and GFT, and the communities themselves are deliberately vendor-neutral.",
+            "As a Barcelona JUG organizer, he works to keep the program useful to developers rather than aligned with a sponsor or product. The community has hosted content covering competing technologies and approaches, including both Spring and Quarkus, and sponsors do not control the editorial program. In one Quarkus-focused meetup, the community included a talk from its own developer team providing an honest comparison between Spring and Quarkus rather than treating the event as product promotion.",
+            "The same approach appears in Anyul's own speaking. He generally focuses on practices and techniques rather than product presentations. His advocacy of modular monoliths, including the Spring Modulith workshop at Spring I/O, is an example of challenging the then-dominant assumption that microservices were the default modernization destination. His software-craftsmanship work similarly emphasizes testability, feedback, refactoring and maintainability rather than attachment to a particular vendor stack."
+          ],
+          "links": [
+            {
+              "label": "Barcelona JUG Quarkus Tour",
+              "url": "https://barcelonajug.org/"
+            },
+            {
+              "label": "Spring I/O Spring Modulith workshop",
+              "url": "https://2024.springio.net/"
+            }
+          ]
+        },
+        {
+          "title": "Java Champions Are Involved With Cool Applications of Java Technology, Humanitarian Efforts, or Educational Programs",
+          "subsections": [
+            {
+              "title": "Teaching Developers and Students",
+              "paragraphs": [
+                "Education has been a recurring part of Anyul's work. At GFT, over several years, he regularly delivered internal Java training to groups of approximately 10 to 20 developers, with particular emphasis on Java 8, lambdas, streams, testing and refactoring. At Ingram Micro he facilitated monthly coding dojos throughout his four years there, centered on TDD and refactoring.",
+                "In 2025 he taught two cohorts of an Advanced Java course at arol.dev, with approximately ten students per cohort. He delivered Java-based sessions covering distributed-system patterns, performance testing and asynchronous communication with Kafka and RabbitMQ, and prepared supporting videos and a set of public hands-on repositories for students.",
+                "He has also participated in university outreach. In 2021 he delivered a TDD masterclass at La Salle University, and he has participated in fishbowl-style events at UPC intended to help students understand how to enter the IT job market."
+              ],
+              "links": [
+                {
+                  "label": "arol.dev GitHub organization",
+                  "url": "https://github.com/arol-dev"
+                },
+                {
+                  "label": "La Salle TDD masterclass evidence",
+                  "url": "https://www.salleurl.edu/"
+                }
+              ]
+            },
+            {
+              "title": "Migracode and Employability Programs",
+              "paragraphs": [
+                "Since 2022, Anyul has been a main instructor with Migracode, helping expatriates and people seeking access to the technology sector. He has taught three cohorts of approximately 30 students each, primarily covering programming fundamentals and cloud computing with AWS. Approximately 40% of the roughly 90 students across those cohorts subsequently entered IT-related employment.",
+                "This work is complemented by other volunteer initiatives. He served as a Java mentor at HackUPC from 2017 through 2023, volunteered with Barcelona Activa's Mentoring+ program to help unemployed people prepare for jobs in technology, mentored full-stack teams at Jump2Digital, and volunteered for 36 hours at UPC/TV3's bitsXlaMarato initiative supporting a mental-health cause."
+              ],
+              "links": [
+                {
+                  "label": "Migracode",
+                  "url": "https://migracode.org/"
+                },
+                {
+                  "label": "AWS re/Start / Migracode evidence",
+                  "url": "https://migracode.org/"
+                },
+                {
+                  "label": "HackUPC",
+                  "url": "https://hackupc.com/"
+                },
+                {
+                  "label": "Barcelona Activa",
+                  "url": "https://www.barcelonactiva.cat/"
+                },
+                {
+                  "label": "Jump2Digital",
+                  "url": "https://jump2digital.com/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Java Champions Are Able to Evangelize or Influence Other Developers",
+          "paragraphs": [
+            "Anyul has shared Java, architecture and software-craftsmanship practices through public talks, workshops, panels, coding dojos and community events. His public trajectory currently records eighteen speaking or teaching appearances from 2021 through 2026, in addition to the events he organizes for Barcelona JUG and Software Crafters Barcelona.",
+            "Representative Java and JVM-related appearances include Devoxx Belgium 2026, JavaCro 2026, Software Crafters Barcelona 2026, JMad 2026, MWC Upskilling Week 2026, Talent Arena 2026 and 2025, Spring I/O 2024, and Barcelona JUG sessions on Java 25, architecture, testing and other community topics.",
+            "The lasting impact of this work is not limited to individual talks. Anyul has helped build a regular cadence for Barcelona JUG and brought new people into the community who now participate as active and enthusiastic members. The community continues independently of any one employer or event. That combination of sustained organization, technical teaching and practical knowledge sharing is the central thread of his contribution to the Java ecosystem."
+          ],
+          "links": [
+            {
+              "label": "Devoxx Belgium 2026 speaker page",
+              "url": "https://devoxx.com/"
+            },
+            {
+              "label": "JavaCro 2026 speakers",
+              "url": "https://2026.javacro.hr/"
+            },
+            {
+              "label": "JMad",
+              "url": "https://jmad.dev/"
+            },
+            {
+              "label": "Talent Arena 2025",
+              "url": "https://talentarena.tech/"
+            },
+            {
+              "label": "MWC Upskilling Week",
+              "url": "https://www.mwcbarcelona.com/"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
