@@ -78,6 +78,44 @@ function LogoOrFallback({ item, size = 'medium' }) {
   return <div className={`brand-mark brand-mark--${size}`}>{logoPath ? <img src={logoPath} alt={`${label} logo`} loading="lazy" /> : <span aria-label={label}>{initials}</span>}</div>;
 }
 
+const TECHNOLOGY_EXPLANATIONS = {
+  java: 'Used as the primary implementation language for the application and its supporting services.',
+  'java 8': 'Used as the implementation language for the application and its automated tests.',
+  'java 17': 'Used to implement the Java services and take advantage of the modern runtime baseline.',
+  'java 21': 'Used as the implementation language for modern Java services and platform components.',
+  spring: 'Used to structure the application and configure its Java components.',
+  'spring boot': 'Used to build and configure independently deployable Java applications.',
+  'spring cloud': 'Used to support distributed-system patterns across the Java services.',
+  kafka: 'Used for asynchronous event streaming and communication between services.',
+  junit: 'Used to structure and execute automated Java tests.',
+  'junit 5': 'Used to structure and execute the automated Java test suite.',
+  mockito: 'Used to isolate collaborators and control dependencies during automated tests.',
+  jbehave: 'Used to connect readable behavior scenarios with executable Java acceptance tests.',
+  vavr: 'Used to apply functional programming patterns and explicit error handling in Java code.',
+  maven: 'Used to manage the Java build lifecycle and project dependencies.',
+  gradle: 'Used to define the Java build, dependency management, and delivery tasks.',
+  kubernetes: 'Used to deploy and operate the containerized application workloads.',
+  docker: 'Used to package the application and its dependencies into reproducible containers.',
+  testcontainers: 'Used to run integration tests against containerized infrastructure dependencies.',
+  opentelemetry: 'Used to instrument Java services and propagate distributed traces and telemetry.',
+  micrometer: 'Used to expose application metrics from Java services.',
+  hibernate: 'Used to map Java domain objects to relational database data.',
+  jpa: 'Used to define the Java persistence model and database interactions.',
+  log4j: 'Used to provide structured application logging.'
+};
+
+function technologyEntries(project, employerTools) {
+  if (project.technologies?.length) return project.technologies;
+  const projectTerms = `${project.name} ${project.description ?? ''} ${(project.skills ?? []).join(' ')}`.toLowerCase();
+  const matching = employerTools.filter((tool) => projectTerms.includes(tool.toLowerCase()));
+  const selected = matching.length ? matching : employerTools.slice(0, Math.min(6, employerTools.length));
+  return selected.map((name) => ({ name, description: TECHNOLOGY_EXPLANATIONS[name.toLowerCase()] ?? 'Used as part of the project delivery stack and development workflow.' }));
+}
+function projectsForEmployer(employer) {
+  if (employer.projects?.length) return employer.projects;
+  return [{ name: employer.role, period: employer.period, description: employer.description, skills: [], technologies: employer.tools.map((name) => ({ name, description: TECHNOLOGY_EXPLANATIONS[name.toLowerCase()] ?? 'Used as part of the course material and Java development workflow.' })) }];
+}
+
 function ExternalLinks({ links = [] }) {
   if (!links.length) return null;
   return <div className="link-row">{links.map((link) => <a key={`${link.label}-${link.url}`} href={link.url} target="_blank" rel="noreferrer">{link.label} <span aria-hidden="true">↗</span></a>)}</div>;
@@ -127,7 +165,7 @@ function TalksPage({ champion }) {
   const years = yearGroups.filter((group) => group.year !== 'Undated').length;
   return <section className="section champion-section"><SectionTitle eyebrow="Talks & workshops" title="Sharing the craft" description="A reverse-chronological record of public sessions about Java, Spring, architecture, testing, and the practices that help teams deliver better software." /><div className="event-overview-strip"><div><strong>{champion.talks.length}</strong><span>talks & workshops</span></div><div><strong>{years}</strong><span>years of activity</span></div><div><strong>{new Set(champion.talks.map((item) => item.name)).size}</strong><span>organizations</span></div></div><div className="event-timeline">{yearGroups.map((yearGroup) => <section key={yearGroup.year} className="event-year"><div className="event-year-heading"><span className="event-year-rule" aria-hidden="true" /><h3>{yearGroup.year}</h3></div><div className="event-year-content">{yearGroup.months.map((month) => <div key={month.key} className="event-month"><div className="event-month-label"><span>{month.label}</span><small>{month.items.length} {month.items.length === 1 ? 'session' : 'sessions'}</small></div><div className="event-month-items">{month.items.map((item) => <EventTimelineCard key={`${item.date}-${item.name}-${item.description}`} item={item} />)}</div></div>)}</div></section>)}</div></section>;
 }
-function ProjectsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Java projects at work" title="Tools applied in real delivery contexts" description="One editable project entry per employer, with the Java ecosystem alphabetized for quick scanning." /><div className="project-grid">{champion.projects.map((item) => <article key={`${item.company}-${item.period}`} className="project-card"><div className="project-heading"><LogoOrFallback item={{ ...item, organization: item.company }} size="large" /><div><span className="card-kicker">{item.period}</span><h3>{item.company}</h3><p>{item.role}</p></div></div>{item.description ? <p className="project-description">{item.description}</p> : null}{item.projects?.length ? <div className="project-list">{item.projects.map((project) => <div key={`${item.company}-${project.name}`} className="project-detail"><div className="project-detail-meta"><strong>{project.name}</strong><span>{project.period}</span></div><p>{project.description}</p>{project.technologies?.length ? <div className="technology-list"><h4>Java technologies</h4>{project.technologies.map((technology) => <div key={technology.name} className="technology-item"><strong>{technology.name}</strong><span>{technology.description}</span></div>)}</div> : null}<div className="project-skill-list">{project.skills.map((skill) => <span key={skill}>{skill}</span>)}</div></div>)}</div> : null}<div className="tool-list">{[...item.tools].sort((a, b) => a.localeCompare(b)).map((tool) => <span key={tool}>{tool}</span>)}</div></article>)}</div></section>; }
+function ProjectsPage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Java projects at work" title="Technologies applied in real delivery contexts" description="Each project documents the Java libraries and technologies used, with a concise explanation of their role." /><div className="project-grid">{champion.projects.map((item) => <article key={`${item.company}-${item.period}`} className="project-card"><div className="project-heading"><LogoOrFallback item={{ ...item, organization: item.company }} size="large" /><div><span className="card-kicker">{item.period}</span><h3>{item.company}</h3><p>{item.role}</p></div></div>{item.description ? <p className="project-description">{item.description}</p> : null}<div className="project-list">{projectsForEmployer(item).map((project) => <div key={`${item.company}-${project.name}`} className="project-detail"><div className="project-detail-meta"><strong>{project.name}</strong><span>{project.period}</span></div>{project.description ? <p>{project.description}</p> : null}<div className="technology-list"><h4>Java technologies</h4>{technologyEntries(project, item.tools ?? []).map((technology) => <div key={technology.name} className="technology-item"><strong>{technology.name}</strong><span>{technology.description}</span></div>)}</div>{project.skills?.length ? <div className="project-skill-list">{project.skills.map((skill) => <span key={skill}>{skill}</span>)}</div> : null}</div>)}</div></article>)}</div></section>; }
 function OpenSourcePage({ champion }) { return <section className="section champion-section"><SectionTitle eyebrow="Open source contribution" title="Giving back to the ecosystem" description="Projects where contributions and collaboration connect professional Java practice with the wider ecosystem." /><div className="evidence-grid">{champion.openSource.map((item) => <EvidenceCard key={item.name} item={item} date={false} />)}</div></section>; }
 
 function AppContent() {
