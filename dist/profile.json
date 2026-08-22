@@ -224,7 +224,7 @@
       {
         "date": "2019-present",
         "name": "Barcelona Jug Board member",
-        "description": "Jbcnconf conference & meetup organization",
+        "description": "Jbcnconf conference & meetup organization. This includes social media promotion, CFP committee, searching for sponsors and venues, talk recording and uploading to youbue, venue localization, searching and mentoring for speakers",
         "links": [
           {
             "label": "Details",
@@ -235,7 +235,7 @@
       {
         "date": "2021-present",
         "name": "Software Crafters Barcelona",
-        "description": "Coding best practices",
+        "description": "Annual conference organization, CFP Committe, Organizer and facilitator of Coding best practices workshops, related with Java",
         "links": [
           {
             "label": "Details",
@@ -246,7 +246,7 @@
       {
         "date": "2022-present",
         "name": "Migracode",
-        "description": "Helping expats to enter the IT job market by learning cloud technologies",
+        "description": "Helping expats to enter the IT job market by learning cloud technologies. Main instructor of the AWS re/start program teaching cloud computing and programming fundamentals with python, java, javascript and AWS",
         "links": [
           {
             "label": "Details",
@@ -265,7 +265,7 @@
       {
         "date": "2017-2022",
         "name": "HackUpc",
-        "description": "Hackathon Java Mentor",
+        "description": "Hackathon Java Mentor. It's a 36-hours hackathon wehere students build projects for the sponsor challenges",
         "links": [
           {
             "label": "Details",
@@ -391,7 +391,7 @@
         "date": "2026-06-07",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "SDD with openSpec",
+        "description": "SDD with openSpec with a Java project",
         "links": [
           {
             "label": "Details",
@@ -415,7 +415,7 @@
         "date": "2026-04-07",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Functional programming kata",
+        "description": "Functional programming kata with Java",
         "links": [
           {
             "label": "Details",
@@ -427,7 +427,7 @@
         "date": "2026-02-10",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Refactoring Kata",
+        "description": "Java Refactoring Kata",
         "links": [
           {
             "label": "Details",
@@ -535,7 +535,7 @@
         "date": "2025-04-09",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Architecture Kata",
+        "description": "java architecture kata",
         "links": [
           {
             "label": "Details",
@@ -655,7 +655,7 @@
         "date": "2024-06-18",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Architecture Kata",
+        "description": "java architecture kata",
         "links": [
           {
             "label": "Details",
@@ -667,7 +667,7 @@
         "date": "2024-06-03",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "refactoring kata",
+        "description": "Java refactoring kata",
         "links": [
           {
             "label": "Details",
@@ -691,7 +691,7 @@
         "date": "2024-05-23",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "From Silos to DevOpps",
+        "description": "From Silos to DevOps",
         "links": [
           {
             "label": "Details",
@@ -703,7 +703,7 @@
         "date": "2024-05-21",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Refactoring kata",
+        "description": "Java Refactoring kata",
         "links": [
           {
             "label": "Details",
@@ -715,7 +715,7 @@
         "date": "2026-04-24",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "refactoring kata",
+        "description": "java refactoring kata",
         "links": [
           {
             "label": "Details",
@@ -727,7 +727,7 @@
         "date": "2024-04-08",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Refactoring kata",
+        "description": "java refactoring kata",
         "links": [
           {
             "label": "Details",
@@ -751,7 +751,7 @@
         "date": "2024-03-19",
         "name": "Barcelona JUG",
         "type": "workshop",
-        "description": "Architecture Kata",
+        "description": "java architecture kata",
         "links": [
           {
             "label": "Details",
@@ -775,7 +775,7 @@
         "date": "2024-02-19",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Refactoring Kata",
+        "description": "java refactoring Kata",
         "links": [
           {
             "label": "Details",
@@ -799,7 +799,7 @@
         "date": "2024-01-23",
         "name": "Barcelona JUG",
         "type": "workshop",
-        "description": "Architecture Kata",
+        "description": "java architecture kata",
         "links": [
           {
             "label": "Details",
@@ -1216,7 +1216,7 @@
       {
         "date": "2026-05-23",
         "name": "JMad",
-        "description": "Harness Engineering",
+        "description": "Harness Engineering in Java",
         "links": [
           {
             "label": "Details",
@@ -1253,7 +1253,7 @@
       {
         "date": "2025-11-20",
         "name": "Barcelona JUG",
-        "description": "Java 25",
+        "description": "Java 25 features",
         "links": [
           {
             "label": "Details",
@@ -1323,7 +1323,7 @@
       {
         "date": "2024-04-21",
         "name": "InnoIT meetup",
-        "description": "Refactoring Kata",
+        "description": "java refactoring Kata",
         "links": [
           {
             "label": "Details",
@@ -1334,7 +1334,7 @@
       {
         "date": "2023-10-22",
         "name": "Software Crafters Barcelona",
-        "description": "Architectural Kata",
+        "description": "java architectural Kata",
         "links": [
           {
             "label": "Details",
@@ -1401,7 +1401,7 @@
           {
             "name": "Ibercaja",
             "period": "Mar 2026 - Aug 2026",
-            "description": "Modernization to cloud-native event-driven architecture.",
+            "description": "Modernization to cloud-native event-driven architecture. Build a consumer and producer SDK with Java 21 using the Outbox pattern. Used OpenTelemetry and Micrometer for SDK traceability, Junit, Mockito, & TestContainers for the test suite",
             "skills": [
               "Solution Architecture",
               "Software Architectural Design",
@@ -1416,44 +1416,11 @@
           {
             "name": "Digital Upgrade",
             "period": "Feb 2026 - May 2026",
-            "description": "Enterprise Architect role for DB Germany.",
+            "description": "Enterprise Architect role for DB Germany. Used Java Mainframe Connector solution to batch send COBOL workcopies to GCP",
             "skills": [
               "Google Cloud Platform (GCP)",
               "Mainframe Connector",
               "Software Architecture"
-            ]
-          },
-          {
-            "name": "Acceptance Testing Framework",
-            "period": "Oct 2018 - Mar 2019",
-            "description": "An internal framework that used the Gherkin language to create automated end-to-end tests linked to user stories, making acceptance criteria understandable to both technical and non-technical stakeholders.",
-            "skills": [
-              "Java",
-              "Test Automation",
-              "Acceptance Testing",
-              "BDD"
-            ],
-            "technologies": [
-              {
-                "name": "Java 8",
-                "description": "Used as the implementation language for the framework and its test orchestration components."
-              },
-              {
-                "name": "JUnit 5",
-                "description": "Used to structure and execute the automated test suite."
-              },
-              {
-                "name": "Mockito",
-                "description": "Used to isolate collaborators and control dependencies during automated tests."
-              },
-              {
-                "name": "JBehave",
-                "description": "Used to connect Gherkin-style scenarios with executable Java acceptance tests."
-              },
-              {
-                "name": "Vavr",
-                "description": "Used to apply functional programming patterns and more explicit error handling in Java code."
-              }
             ]
           }
         ]
@@ -1519,7 +1486,7 @@
           {
             "name": "Catalog Gateway",
             "period": "Jan 2024 - Dec 2025",
-            "description": "An Xvantage component responsible for catalog ingestion from vendors to subscriptions.",
+            "description": "An Xvantage component responsible for catalog ingestion from vendors to subscriptions. We developed and maintained Java microservices as part of the official stack to comply with the business logic.",
             "skills": [
               "Docker Products",
               "Java",
@@ -1536,7 +1503,7 @@
             "skills": [
               "Azure Kubernetes Service (AKS)",
               "Java",
-              "duckDB"
+              "DuckDB"
             ]
           },
           {
@@ -1551,7 +1518,7 @@
           {
             "name": "Feature Toggle Solution",
             "period": "Nov 2022 - May 2024",
-            "description": "A feature toggle solution based on the CNCF specification to decouple deployment from release.",
+            "description": "A pure Java feature toggle solution based on the CNCF specification to decouple deployment from release.",
             "skills": [
               "Continuous Delivery",
               "Software Architecture",
@@ -1563,7 +1530,7 @@
           {
             "name": "CloudBlue Commerce Platform",
             "period": "Apr 2022 - Jan 2024",
-            "description": "A multi-tier commerce platform that allows the launch of marketplaces.",
+            "description": "A multi-tier commerce platform that allows the launch of marketplaces. Build and maintainde dozens of java microservices",
             "skills": [
               "Azure Kubernetes Service (AKS)",
               "Kubernetes"
@@ -1730,6 +1697,39 @@
             "skills": [
               "Kotlin",
               "Kubernetes"
+            ]
+          },
+          {
+            "name": "Acceptance Testing Framework",
+            "period": "Oct 2018 - Mar 2019",
+            "description": "An internal framework that used the Gherkin language to create automated end-to-end tests linked to user stories, making acceptance criteria understandable to both technical and non-technical stakeholders.",
+            "skills": [
+              "Java",
+              "Test Automation",
+              "Acceptance Testing",
+              "BDD"
+            ],
+            "technologies": [
+              {
+                "name": "Java 8",
+                "description": "Used as the implementation language for the framework and its test orchestration components."
+              },
+              {
+                "name": "JUnit 5",
+                "description": "Used to structure and execute the automated test suite."
+              },
+              {
+                "name": "Mockito",
+                "description": "Used to isolate collaborators and control dependencies during automated tests."
+              },
+              {
+                "name": "JBehave",
+                "description": "Used to connect Gherkin-style scenarios with executable Java acceptance tests."
+              },
+              {
+                "name": "Vavr",
+                "description": "Used to apply functional programming patterns and more explicit error handling in Java code."
+              }
             ]
           }
         ]
