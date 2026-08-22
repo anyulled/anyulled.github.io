@@ -385,6 +385,10 @@ a {
 .project-detail-meta strong { color: var(--ink); font-size: 1rem; }
 .project-detail-meta span { color: var(--muted); font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
 .project-detail > p { margin: 9px 0 0; color: var(--muted); line-height: 1.5; }
+.technology-list { display: grid; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(45, 92, 140, 0.14); }
+.technology-list h4 { margin: 0; color: var(--ink); font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.technology-item { display: grid; grid-template-columns: minmax(110px, 0.35fr) 1fr; gap: 10px; color: var(--muted); font-size: 0.84rem; line-height: 1.45; }
+.technology-item strong { color: var(--accent); }
 .project-skill-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 11px; }
 .project-skill-list span { padding: 6px 8px; border-radius: 8px; background: rgba(45, 92, 140, 0.1); color: #31577c; font-size: 0.74rem; font-weight: 700; }
 

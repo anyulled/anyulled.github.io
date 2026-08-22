@@ -1422,6 +1422,39 @@
               "Mainframe Connector",
               "Software Architecture"
             ]
+          },
+          {
+            "name": "Acceptance Testing Framework",
+            "period": "Oct 2018 - Mar 2019",
+            "description": "An internal framework that used the Gherkin language to create automated end-to-end tests linked to user stories, making acceptance criteria understandable to both technical and non-technical stakeholders.",
+            "skills": [
+              "Java",
+              "Test Automation",
+              "Acceptance Testing",
+              "BDD"
+            ],
+            "technologies": [
+              {
+                "name": "Java 8",
+                "description": "Used as the implementation language for the framework and its test orchestration components."
+              },
+              {
+                "name": "JUnit 5",
+                "description": "Used to structure and execute the automated test suite."
+              },
+              {
+                "name": "Mockito",
+                "description": "Used to isolate collaborators and control dependencies during automated tests."
+              },
+              {
+                "name": "JBehave",
+                "description": "Used to connect Gherkin-style scenarios with executable Java acceptance tests."
+              },
+              {
+                "name": "Vavr",
+                "description": "Used to apply functional programming patterns and more explicit error handling in Java code."
+              }
+            ]
           }
         ]
       },
