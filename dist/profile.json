@@ -1460,6 +1460,7 @@
       {
         "company": "Ingram Micro",
         "role": "Principal Software Engineer",
+        "description": "Worked in the Platform Engineering department, building a Maven archetype that helped delivery teams move services into production consistently. The archetype provided environment configurations and supported both Spring Boot and WildFly application variants. It used JKube to create Docker images and Helm charts, and included Micrometer and OpenTelemetry configurations for observability. The platform also abstracted synchronous and asynchronous communication, resilience patterns, structured logging, payload serialization, and other recurring production concerns so teams could focus on their business capabilities.",
         "period": "2022-2025",
         "tools": [
           "Assertj",
@@ -1483,6 +1484,60 @@
           "TestContainers"
         ],
         "projects": [
+          {
+            "name": "Java skeleton",
+            "period": "2022 - 2025",
+            "description": "A platform-engineering Maven archetype that helped delivery teams take Java services into production consistently. It provided environment configurations, Spring Boot and WildFly application variants, and reusable abstractions for synchronous and asynchronous communication, resilience patterns, structured logging, payload serialization, and other recurring production concerns.",
+            "skills": [
+              "Platform Engineering",
+              "Java",
+              "Maven",
+              "Production Readiness",
+              "Developer Experience"
+            ],
+            "technologies": [
+              {
+                "name": "Maven Archetype",
+                "description": "Used to generate consistent Java service structures and bootstrap production-ready applications."
+              },
+              {
+                "name": "Spring Boot",
+                "description": "Provided one of the supported application variants and the foundation for Java services."
+              },
+              {
+                "name": "WildFly",
+                "description": "Provided an alternative application runtime variant for teams with different deployment requirements."
+              },
+              {
+                "name": "JKube",
+                "description": "Used to build Docker images and generate Kubernetes deployment resources and Helm charts."
+              },
+              {
+                "name": "Helm",
+                "description": "Used to package and configure Kubernetes deployments for different environments."
+              },
+              {
+                "name": "Micrometer",
+                "description": "Included as the metrics instrumentation layer for monitoring Java applications."
+              },
+              {
+                "name": "OpenTelemetry",
+                "description": "Provided distributed tracing and telemetry configuration across the generated services."
+              },
+              {
+                "name": "Resilience patterns",
+                "description": "Abstracted recurring failure-handling concerns so teams could apply consistent service behavior."
+              },
+              {
+                "name": "Payload serialization",
+                "description": "Standardized how service payloads were serialized and exchanged between components."
+              },
+              {
+                "name": "Synchronous and asynchronous communication",
+                "description": "Provided reusable abstractions for request-response and event-driven interactions."
+              }
+            ]
+          },
           {
             "name": "Catalog Gateway",
             "period": "Jan 2024 - Dec 2025",
