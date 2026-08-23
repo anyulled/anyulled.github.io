@@ -4,3 +4,8 @@ coverage
 *.log
 tmp
 output
+dist/
+*.xlsx
+dist/profile.json
+dist/index.html
+dist/404.html

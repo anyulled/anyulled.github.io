@@ -379,7 +379,7 @@
         "date": "2026-06-11",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Cell-based architecture workshop",
+        "description": "Cell-based architecture workshop, using Java & Apache Technologies",
         "links": [
           {
             "label": "Details",
@@ -475,7 +475,7 @@
         "date": "2025-10-24",
         "name": "Software Crafters Barcelona",
         "type": "conference",
-        "description": "Software Developers Conference in Barcelona",
+        "description": "Software Crafters Conference in Barcelona",
         "links": [
           {
             "label": "Details",
@@ -487,7 +487,7 @@
         "date": "2025-09-09",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Sorting Kata",
+        "description": "Sorting Kata with Java",
         "links": [
           {
             "label": "Details",
@@ -511,7 +511,7 @@
         "date": "2022-05-29",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "gilded rose kata",
+        "description": "gilded rose kata with Java and AI",
         "links": [
           {
             "label": "Details",
@@ -559,7 +559,7 @@
         "date": "2025-03-26",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Trip service kata",
+        "description": "Trip service kata with Java",
         "links": [
           {
             "label": "Details",
@@ -571,7 +571,7 @@
         "date": "2025-01-29",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "Leap year kata",
+        "description": "Leap year kata with Java",
         "links": [
           {
             "label": "Details",
@@ -583,7 +583,7 @@
         "date": "2024-11-12",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Vaadin",
+        "description": "Fullstack applications with Vaadin",
         "links": [
           {
             "label": "Details",
@@ -619,7 +619,7 @@
         "date": "2024-10-25",
         "name": "Software Crafters Barcelona",
         "type": "conference",
-        "description": "Software Craftmanship Conference in Barcelona",
+        "description": "Software Crafters Conference in Barcelona",
         "links": [
           {
             "label": "Details",
@@ -631,7 +631,7 @@
         "date": "2024-09-17",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Embracing microservices",
+        "description": "Embracing Java microservices",
         "links": [
           {
             "label": "Details",
@@ -715,7 +715,7 @@
         "date": "2026-04-24",
         "name": "Software Crafters Barcelona",
         "type": "workshop",
-        "description": "java refactoring kata",
+        "description": "java Refactoring kata",
         "links": [
           {
             "label": "Details",
@@ -955,7 +955,7 @@
         "date": "2022-11-02",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Java under Elastichsearch",
+        "description": "Java under the hood of Elastichsearch",
         "links": [
           {
             "label": "Details",
@@ -979,7 +979,7 @@
         "date": "2022-10-25",
         "name": "Barcelona JUG",
         "type": "meetup",
-        "description": "Spring boot 3",
+        "description": "Spring boot 3 features",
         "links": [
           {
             "label": "Details",
@@ -1381,46 +1381,55 @@
         "company": "GFT",
         "role": "Senior Architect",
         "period": "2026",
-        "tools": [
-          "Avro",
-          "findbugs",
-          "Java 21",
-          "JPA",
-          "JSpecify",
-          "Junit 6",
-          "Kafka",
-          "log4j",
-          "Maven",
-          "Mockito",
-          "OpenRewrite",
-          "PMD",
-          "spring cloud streams",
-          "testContainers"
-        ],
         "projects": [
           {
             "name": "Ibercaja",
             "period": "Mar 2026 - Aug 2026",
             "description": "Modernization to cloud-native event-driven architecture. Build a consumer and producer SDK with Java 21 using the Outbox pattern. Used OpenTelemetry and Micrometer for SDK traceability, Junit, Mockito, & TestContainers for the test suite",
-            "skills": [
-              "Solution Architecture",
-              "Software Architectural Design",
-              "Cloud-native Architecture",
-              "Event-driven Architecture",
-              "Modernization",
-              "Technical Leadership",
-              "Solution Design",
-              "Stakeholder Collaboration"
+            "technologies": [
+              {
+                "name": "Java 21"
+              },
+              {
+                "name": "Mockito"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "Maven"
+              },
+              {
+                "name": "Apache Kafka"
+              },
+              {
+                "name": "Keycloak"
+              },
+              {
+                "name": "JUnit 5"
+              },
+              {
+                "name": "AssertJ"
+              },
+              {
+                "name": "Micrometer"
+              },
+              {
+                "name": "OpenTelemetry"
+              }
             ]
           },
           {
             "name": "Digital Upgrade",
             "period": "Feb 2026 - May 2026",
             "description": "Enterprise Architect role for DB Germany. Used Java Mainframe Connector solution to batch send COBOL workcopies to GCP",
-            "skills": [
-              "Google Cloud Platform (GCP)",
-              "Mainframe Connector",
-              "Software Architecture"
+            "technologies": [
+              {
+                "name": "Google Cloud Platform (GCP) SDK"
+              },
+              {
+                "name": "Java Mainframe Connector (JMC)"
+              }
             ]
           }
         ]
@@ -1428,113 +1437,116 @@
       {
         "company": "Arol.dev",
         "role": "Advanced Java instructor",
-        "description": "developed and taught hands-on material supported by a set of public Java repositories covering clean architecture and refactoring, service decomposition, synchronous communication, API versioning, distributed transactions, saga patterns, and integration testing with Testcontainers. The material was used across two cohorts of approximately ten students each, combining classroom instruction with practical exercises, supporting videos, and reusable code examples.",
         "period": "2025-2026",
-        "tools": [
-          "Java 21",
-          "Orika Mapper",
-          "ArchUnit",
-          "JUnit 5",
-          "Spring Cloud",
-          "Zuul",
-          "AssertJ",
-          "eureka",
-          "Jaeger",
-          "OpenTelemetry",
-          "Prometheus",
-          "Grafana",
-          "Spring boot",
-          "Micrometer",
-          "Log4j",
-          "Maven",
-          "TestContainers",
-          "Postgresql",
-          "AsyncAPI",
-          "OpenAPI",
-          "spring contract test",
-          "pact contract test",
-          "Keycloak",
-          "Spring security"
+        "projects": [
+          {
+            "name": "Advanced Java Course",
+            "period": "2025-2026",
+            "description": "Developed and taught hands-on material supported by a set of public Java repositories covering Domain-driven design, clean architecture and refactoring, service decomposition, synchronous communication, API versioning, distributed transactions, saga patterns, and integration testing with Testcontainers. The material was used across two cohorts of approximately ten students each, combining classroom instruction with practical exercises, supporting videos, and reusable code examples.",
+            "technologies": [
+              {
+                "name": "Java 21"
+              },
+              {
+                "name": "Orika Mapper"
+              },
+              {
+                "name": "ArchUnit"
+              },
+              {
+                "name": "JUnit 5"
+              },
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Netflix Zuul"
+              },
+              {
+                "name": "AssertJ"
+              },
+              {
+                "name": "Netflix Eureka"
+              },
+              {
+                "name": "OpenTelemetry"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "Micrometer"
+              },
+              {
+                "name": "Log4j"
+              },
+              {
+                "name": "Maven"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "Spring Cloud Contract"
+              },
+              {
+                "name": "Pact JVM"
+              },
+              {
+                "name": "Keycloak"
+              },
+              {
+                "name": "Spring Security"
+              }
+            ]
+          }
         ]
       },
       {
         "company": "Ingram Micro",
         "role": "Principal Software Engineer",
-        "description": "Worked in the Platform Engineering department, building a Maven archetype that helped delivery teams move services into production consistently. The archetype provided environment configurations and supported both Spring Boot and WildFly application variants. It used JKube to create Docker images and Helm charts, and included Micrometer and OpenTelemetry configurations for observability. The platform also abstracted synchronous and asynchronous communication, resilience patterns, structured logging, payload serialization, and other recurring production concerns so teams could focus on their business capabilities.",
         "period": "2022-2025",
-        "tools": [
-          "Assertj",
-          "Graalvm",
-          "Hibernate",
-          "Java 17",
-          "Jbang",
-          "Jkube",
-          "JPA",
-          "Junit",
-          "Keycloak",
-          "log4j",
-          "Maven",
-          "Mockito",
-          "OpenFeature",
-          "OpenTelemetry",
-          "Quarkus",
-          "quartz",
-          "resilience4j",
-          "Spring boot",
-          "TestContainers"
-        ],
         "projects": [
           {
             "name": "Java skeleton",
             "period": "2022 - 2025",
             "description": "A platform-engineering Maven archetype that helped delivery teams take Java services into production consistently. It provided environment configurations, Spring Boot and WildFly application variants, and reusable abstractions for synchronous and asynchronous communication, resilience patterns, structured logging, payload serialization, and other recurring production concerns.",
-            "skills": [
-              "Platform Engineering",
-              "Java",
-              "Maven",
-              "Production Readiness",
-              "Developer Experience"
-            ],
             "technologies": [
               {
-                "name": "Maven Archetype",
-                "description": "Used to generate consistent Java service structures and bootstrap production-ready applications."
+                "name": "Maven Archetype"
               },
               {
-                "name": "Spring Boot",
-                "description": "Provided one of the supported application variants and the foundation for Java services."
+                "name": "Spring Boot"
               },
               {
-                "name": "WildFly",
-                "description": "Provided an alternative application runtime variant for teams with different deployment requirements."
+                "name": "WildFly"
               },
               {
-                "name": "JKube",
-                "description": "Used to build Docker images and generate Kubernetes deployment resources and Helm charts."
+                "name": "Eclipse JKube"
               },
               {
-                "name": "Helm",
-                "description": "Used to package and configure Kubernetes deployments for different environments."
+                "name": "Micrometer"
               },
               {
-                "name": "Micrometer",
-                "description": "Included as the metrics instrumentation layer for monitoring Java applications."
+                "name": "OpenTelemetry"
               },
               {
-                "name": "OpenTelemetry",
-                "description": "Provided distributed tracing and telemetry configuration across the generated services."
+                "name": "Resilience4j"
               },
               {
-                "name": "Resilience patterns",
-                "description": "Abstracted recurring failure-handling concerns so teams could apply consistent service behavior."
+                "name": "Jackson"
               },
               {
-                "name": "Payload serialization",
-                "description": "Standardized how service payloads were serialized and exchanged between components."
+                "name": "Spring WebClient"
               },
               {
-                "name": "Synchronous and asynchronous communication",
-                "description": "Provided reusable abstractions for request-response and event-driven interactions."
+                "name": "Quartz"
+              },
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Maven"
               }
             ]
           },
@@ -1542,53 +1554,119 @@
             "name": "Catalog Gateway",
             "period": "Jan 2024 - Dec 2025",
             "description": "An Xvantage component responsible for catalog ingestion from vendors to subscriptions. We developed and maintained Java microservices as part of the official stack to comply with the business logic.",
-            "skills": [
-              "Docker Products",
-              "Java",
-              "Spring Boot",
-              "Spring Cloud",
-              "Quartz",
-              "Reactive Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Quartz"
+              },
+              {
+                "name": "Project Reactor"
+              }
             ]
           },
           {
             "name": "PS1 - Load",
             "period": "Apr 2025 - Dec 2025",
             "description": "A sophisticated data migration pipeline that facilitates the transition of subscription data from legacy PCI systems to modern SPS (SAP) systems. The project includes a robust reconciliation component that validates data integrity, identifies discrepancies, and ensures accurate financial calculations during country-level migrations.",
-            "skills": [
-              "Azure Kubernetes Service (AKS)",
-              "Java",
-              "DuckDB"
+            "technologies": [
+              {
+                "name": "Java"
+              }
             ]
           },
           {
             "name": "Xvantage",
             "period": "Jan 2023 - Dec 2025",
             "description": "The Xvantage digital experience platform is powered by a global real time data mesh containing many years of operating and transactions data, as well as several proprietary engines which are enhanced by artificial intelligence (AI) and machine learning. Ingram Micro's Cloud Marketplace is also integrated into Xvantage, allowing cloud solutions to be easily incorporated into solutions containing technology hardware, software, and professional services.",
-            "skills": [
-              "Azure Kubernetes Service (AKS)",
-              "Google Cloud Platform (GCP)"
+            "technologies": [
+              {
+                "name": "Google Cloud Platform (GCP) SDK"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "WildFly"
+              },
+              {
+                "name": "Java 17"
+              },
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Maven"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "JUnit 5"
+              },
+              {
+                "name": "JaCoCo"
+              }
             ]
           },
           {
             "name": "Feature Toggle Solution",
             "period": "Nov 2022 - May 2024",
             "description": "A pure Java feature toggle solution based on the CNCF specification to decouple deployment from release.",
-            "skills": [
-              "Continuous Delivery",
-              "Software Architecture",
-              "OpenFeature",
-              "OpenTelemetry",
-              "Kubernetes"
+            "technologies": [
+              {
+                "name": "Java 17"
+              },
+              {
+                "name": "OpenFeature"
+              },
+              {
+                "name": "OpenTelemetry"
+              },
+              {
+                "name": "Spring Boot"
+              }
             ]
           },
           {
             "name": "CloudBlue Commerce Platform",
             "period": "Apr 2022 - Jan 2024",
             "description": "A multi-tier commerce platform that allows the launch of marketplaces. Build and maintainde dozens of java microservices",
-            "skills": [
-              "Azure Kubernetes Service (AKS)",
-              "Kubernetes"
+            "technologies": [
+              {
+                "name": "Google Cloud Platform (GCP) SDK"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "WildFly"
+              },
+              {
+                "name": "Java 17"
+              },
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Maven"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "JUnit 5"
+              },
+              {
+                "name": "JaCoCo"
+              }
             ]
           }
         ]
@@ -1597,108 +1675,160 @@
         "company": "Roche",
         "role": "Senior Software Engineer",
         "period": "2019-2022",
-        "tools": [
-          "applets",
-          "Archunit",
-          "AssertJ",
-          "gradle",
-          "Guava",
-          "hibernate",
-          "Java 11",
-          "Java 8",
-          "Jkube",
-          "jpa",
-          "Jreleaser",
-          "Junit",
-          "log4j",
-          "maven",
-          "Mockito",
-          "pact contract test",
-          "spring boot",
-          "Spring cloud",
-          "spring contract test",
-          "Spring state machine",
-          "TestContainers"
-        ],
         "projects": [
           {
             "name": "Device Data Adapter",
             "period": "Nov 2021 - Apr 2022",
             "description": "An interface to allow connectivity from lab instruments to the Lab & Network Integrator.",
-            "skills": [
-              "AWS",
-              "Docker",
-              "GitLab CI/CD",
-              "Helm",
-              "Java",
-              "Kubernetes",
-              "Maven",
-              "Software Architectural Design",
-              "Spring Boot"
+            "technologies": [
+              {
+                "name": "AWS SDK"
+              },
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Maven"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "Pact JVM"
+              },
+              {
+                "name": "JUnit 5"
+              },
+              {
+                "name": "JaCoCo"
+              },
+              {
+                "name": "PMD"
+              },
+              {
+                "name": "Checkstyle"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "ArchUnit"
+              }
             ]
           },
           {
             "name": "HL7 Data Services",
             "period": "Jan 2022 - Apr 2022",
             "description": "A containerized Java runtime to extract and adapt data from HL7 instruments and send anonymized data to the cloud via AWS IoT.",
-            "skills": [
-              "AWS IoT",
-              "Java",
-              "Software Architectural Design"
+            "technologies": [
+              {
+                "name": "Java 11"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "ArchUnit"
+              }
             ]
           },
           {
             "name": "Lab & Network Integrator",
             "period": "Jan 2021 - Nov 2021",
             "description": "An ETL software gathering data from customers' instruments at the edge and aggregating them in the cloud.",
-            "skills": [
-              "Java",
-              "Kubernetes"
+            "technologies": [
+              {
+                "name": "Java 11"
+              },
+              {
+                "name": "AWS SDK"
+              },
+              {
+                "name": "Testcontainers"
+              },
+              {
+                "name": "ArchUnit"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "Apache Camel"
+              }
             ]
           },
           {
             "name": "Dependency Manager",
             "period": "Nov 2020 - Jan 2021",
             "description": "A Gradle plugin to manage downloaded dependencies with several tuning options.",
-            "skills": [
-              "Gradle",
-              "Java"
+            "technologies": [
+              {
+                "name": "Gradle"
+              },
+              {
+                "name": "Java 8"
+              }
             ]
           },
           {
             "name": "TFS to GIT",
             "period": "Dec 2020 - Jan 2021",
             "description": "A Java project to migrate from Microsoft Team Foundation to Git, converting internal files into classes.",
-            "skills": [
-              "Java",
-              "Team Foundation Server"
+            "technologies": [
+              {
+                "name": "Java 8"
+              }
             ]
           },
           {
             "name": "Cobas Infinity",
             "period": "Oct 2019 - Nov 2020",
             "description": "Full analytics middleware for laboratory in vitro diagnostics.",
-            "skills": [
-              "Jenkins",
-              "Redux"
+            "technologies": [
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "Spring Boot Web MVC"
+              },
+              {
+                "name": "JUnit 4"
+              },
+              {
+                "name": "AssertJ"
+              },
+              {
+                "name": "Mockito"
+              }
             ]
           },
           {
             "name": "Java package signing",
             "period": "Apr 2020 - Aug 2020",
             "description": "Designed an automated solution with Maven plugins and goals to sign and verify Java artifacts for all Roche Java projects and implemented it on the CI/CD production environment.",
-            "skills": [
-              "Jenkins",
-              "REST APIs"
+            "technologies": [
+              {
+                "name": "Apache Maven Jarsigner Plugin"
+              },
+              {
+                "name": "Java 8"
+              },
+              {
+                "name": "Maven"
+              }
             ]
           },
           {
             "name": "Anonymatic",
             "period": "Mar 2020 - May 2020",
             "description": "Database records obfuscation tool.",
-            "skills": [
-              "Java",
-              "Spring Boot"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Spring Boot"
+              }
             ]
           }
         ]
@@ -1707,83 +1837,82 @@
         "company": "GFT",
         "role": "Senior Software Engineer",
         "period": "2016-2019",
-        "tools": [
-          "assertj",
-          "envers",
-          "eureka",
-          "feign client",
-          "hibernate",
-          "histryx",
-          "Java 8",
-          "jbehave",
-          "jdriven",
-          "jpa",
-          "Junit 5",
-          "Kotlin",
-          "liquibase",
-          "log4j",
-          "lombok",
-          "maven",
-          "Mockito",
-          "mybatis",
-          "orika mapper",
-          "resilience4j",
-          "ribbon",
-          "Spring boot",
-          "spring cloud",
-          "spring state machine",
-          "vavr",
-          "Zuul"
-        ],
         "projects": [
           {
             "name": "DB Distribute",
             "period": "Jul 2016 - Oct 2019",
             "description": "CP Funded and unfunded de-risking instrument on trade finance. Client: Deutsche Bank. Related patterns: API gateway, Service Discovery (Eureka), Circuit Breaker (Hystrix), Intelligent Routing (Zuul), and Client-Side Load Balancing (Ribbon).",
-            "skills": [
-              "Microservices",
-              "Spring Cloud"
+            "technologies": [
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Netflix Eureka"
+              },
+              {
+                "name": "Netflix Ribbon"
+              },
+              {
+                "name": "Netflix Zuul"
+              },
+              {
+                "name": "Spring Cloud OpenFeign"
+              },
+              {
+                "name": "Hibernate ORM"
+              },
+              {
+                "name": "Hibernate Envers"
+              },
+              {
+                "name": "Java 8"
+              },
+              {
+                "name": "Apache Tomcat"
+              }
             ]
           },
           {
             "name": "De-risk Decision Service",
             "period": "Jun 2018 - Oct 2019",
             "description": "A reactive, non-blocking, asynchronous, and event-driven web service collecting JMS messages from a Queue and triggering HTTP REST requests to offer Portfolio Risk Participation (PRP), Private risk insurance (PRI), irrevocable reimbursement undertaking (IRU), and other financial instruments to de-risk trade finance limit requests.",
-            "skills": [
-              "Kotlin",
-              "Kubernetes"
+            "technologies": [
+              {
+                "name": "Spring Cloud"
+              },
+              {
+                "name": "Netty"
+              }
             ]
           },
           {
             "name": "Acceptance Testing Framework",
             "period": "Oct 2018 - Mar 2019",
             "description": "An internal framework that used the Gherkin language to create automated end-to-end tests linked to user stories, making acceptance criteria understandable to both technical and non-technical stakeholders.",
-            "skills": [
-              "Java",
-              "Test Automation",
-              "Acceptance Testing",
-              "BDD"
-            ],
             "technologies": [
               {
-                "name": "Java 8",
-                "description": "Used as the implementation language for the framework and its test orchestration components."
+                "name": "Java 8"
               },
               {
-                "name": "JUnit 5",
-                "description": "Used to structure and execute the automated test suite."
+                "name": "JUnit 5"
               },
               {
-                "name": "Mockito",
-                "description": "Used to isolate collaborators and control dependencies during automated tests."
+                "name": "Mockito"
               },
               {
-                "name": "JBehave",
-                "description": "Used to connect Gherkin-style scenarios with executable Java acceptance tests."
+                "name": "JBehave"
               },
               {
-                "name": "Vavr",
-                "description": "Used to apply functional programming patterns and more explicit error handling in Java code."
+                "name": "Vavr"
+              },
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Test Automation"
+              },
+              {
+                "name": "Selenium"
               }
             ]
           }
@@ -1793,84 +1922,155 @@
         "company": "Venezolano de Credito",
         "role": "Senior Software Engineer",
         "period": "2015-2016",
-        "tools": [
-          "ant",
-          "apache tiles",
-          "iText",
-          "Java 1.4",
-          "Java 1.6",
-          "Java 8",
-          "jax-ws",
-          "jboss",
-          "jdbc",
-          "jdbclog4j",
-          "JSP servlets",
-          "junit",
-          "log4j",
-          "maven",
-          "OC4J Server",
-          "oracle weblogic",
-          "spring framework 3",
-          "spring mvc",
-          "struts",
-          "struts 2"
-        ],
         "projects": [
           {
             "name": "Debt",
             "period": "May 2015 - Jul 2016",
             "description": "Credit Management Web Application for internal use.",
-            "skills": [
-              "jQuery",
-              "Oracle Applications"
-            ]
+            "technologies": []
           },
           {
             "name": "Risk & Credit Analysis",
             "period": "May 2015 - Jul 2016",
             "description": "Risk & Credit Analysis System. Architecture: Java 1.6, Oracle 11G, Struts2, Spring Framework 3, jQuery 1.7, jQuery UI, OJDBC, iText, Log4j, and JBoss Server 7.1.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "iText"
+              },
+              {
+                "name": "Java 1.6"
+              },
+              {
+                "name": "JBoss EAP"
+              },
+              {
+                "name": "JDBC"
+              },
+              {
+                "name": "Log4j"
+              },
+              {
+                "name": "Spring Framework 3"
+              },
+              {
+                "name": "Apache Struts"
+              },
+              {
+                "name": "JAX-WS"
+              }
             ]
           },
           {
             "name": "Java v.4 to v.8 Upgrade",
             "period": "Apr 2016 - Jun 2016",
             "description": "Internal systems migration from OC4J Server Java 1.4 applications to Java 1.8 under WebLogic 12c.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java 1.4"
+              },
+              {
+                "name": "OC4J"
+              },
+              {
+                "name": "WebLogic 12c"
+              }
             ]
           },
           {
             "name": "EPA Statistics",
             "period": "Mar 2016 - May 2016",
-            "description": "EPA Statistics Web Application, generating reports including daily flow analysis, balance, credits, accounts, liquidity gap, investments, payroll and providers payments, and credit cards. Architecture: Java 4, OAS, Oracle 11g, JSP Servlets.",
-            "skills": [
-              "Java"
+            "description": "EPA Statistics Web Application, generating reports including daily flow analysis, balance, credits, accounts, liquidity gap, investments, payroll and providers payments, and credit cards.",
+            "technologies": [
+              {
+                "name": "Java 1.4"
+              },
+              {
+                "name": "JSP and Servlets"
+              }
             ]
           },
           {
             "name": "Requisitoria",
             "period": "May 2015 - May 2016",
             "description": "Requests Production Passes Management System. Architecture: Java 1.4, Struts 1.2, Servlet, Oracle Application Server, JDBC, jQuery 1.5, jQuery UI, and Oracle 11g.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Java 1.4"
+              },
+              {
+                "name": "JDBC"
+              },
+              {
+                "name": "Apache Struts"
+              }
             ]
           },
           {
             "name": "Visit Management & Client Engagement",
             "period": "Oct 2015 - Mar 2016",
             "description": "Architecture: JBoss 7.1, Oracle 11G, Java 1.6, Struts 2, Spring 3, Twitter Bootstrap 3, jQuery 1.11, Apache Tiles, JSON, Ant, Jax-WS, OJdbc, Log4j, and iText.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Apache Tiles"
+              },
+              {
+                "name": "iText"
+              },
+              {
+                "name": "Java 6"
+              },
+              {
+                "name": "JAX-WS"
+              },
+              {
+                "name": "JBoss EAP"
+              },
+              {
+                "name": "JDBC"
+              },
+              {
+                "name": "Log4j"
+              },
+              {
+                "name": "Apache Struts"
+              },
+              {
+                "name": "Apache Struts 2"
+              }
             ]
           },
           {
             "name": "Contracts",
             "period": "Jul 2015 - Jul 2015",
             "description": "Credit instruments creation and printing management. Architecture: Java 1.6, Struts 2, Spring MVC, JDBC, Oracle 11g, jQuery, Twitter Bootstrap, and iText.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "iText"
+              },
+              {
+                "name": "Java 6"
+              },
+              {
+                "name": "JDBC"
+              },
+              {
+                "name": "Spring MVC"
+              },
+              {
+                "name": "Apache Struts"
+              },
+              {
+                "name": "Apache Struts 2"
+              }
             ]
           }
         ]
@@ -1879,51 +2079,81 @@
         "company": "TCS Consulting",
         "role": "Senior Software Engineer",
         "period": "2013-2015",
-        "tools": [
-          "hibernate",
-          "java 1.6",
-          "java 8",
-          "Jboss",
-          "jdbc",
-          "junit",
-          "log4j",
-          "maven",
-          "oc4j",
-          "spring mvc",
-          "struts 2"
-        ],
         "projects": [
           {
             "name": "Manual Billing",
             "period": "Sep 2013 - Apr 2015",
             "description": "Movilnet's internal and external manual billing administration. Architecture: Java, Spring 3, Struts 2.5, OpenJDK 6, LDAP, PostgreSQL 9, J2EE, and JBoss Server.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "JBoss EAP"
+              },
+              {
+                "name": "Apache Struts 2"
+              },
+              {
+                "name": "Spring framework 3"
+              }
             ]
           },
           {
             "name": "Online Prepaid Services",
             "period": "Jan 2014 - Apr 2015",
             "description": "Movilnet's CDMA mobile accounts administration. Client: Movilnet. Architecture: Struts, Spring, OC4J, LDAP, PostgreSQL, and Oracle.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "OC4J"
+              },
+              {
+                "name": "Apache Struts 2"
+              },
+              {
+                "name": "Spring framework 2"
+              },
+              {
+                "name": "jdbc"
+              }
             ]
           },
           {
             "name": "MCP - Mecanismo para el control de seguimiento de la Providencia",
             "period": "Jan 2015 - Feb 2015",
             "description": "Client: Movilnet. Architecture: Java, OC4J, Spring MVC, and Struts.",
-            "skills": [
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Spring MVC"
+              }
             ]
           },
           {
             "name": "Bank of Venezuela Migration",
             "period": "Oct 2013 - Mar 2014",
             "description": "Apps migration to a new Spring MVC architecture. Architecture: Spring 3, Struts 2, JDBC, Oracle WebLogic, and Oracle 11g. Client: Bank of Venezuela.",
-            "skills": [
-              "Spring",
-              "Spring Boot"
+            "technologies": [
+              {
+                "name": "Spring Framework"
+              },
+              {
+                "name": "Spring Boot"
+              },
+              {
+                "name": "JDBC"
+              },
+              {
+                "name": "Spring MVC"
+              },
+              {
+                "name": "Apache Struts 2"
+              }
             ]
           }
         ]
@@ -1932,23 +2162,27 @@
         "company": "Aon Benfield Venezuela",
         "role": "Software Engineer",
         "period": "2008-2013",
-        "tools": [
-          "ant",
-          "apache tomcat",
-          "jasper reports",
-          "java 1.6",
-          "jdbc",
-          "spring framework",
-          "struts 2"
-        ],
         "projects": [
           {
             "name": "Simm 4.0",
             "period": "Feb 2009 - Sep 2013",
             "description": "A massive market integrated system and web platform for the bank-insurance business. Architecture: Apache Tomcat, Spring 2, Struts 2, Hibernate, and Oracle.",
-            "skills": [
-              "Cascading Style Sheets (CSS)",
-              "Java"
+            "technologies": [
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Apache Tomcat"
+              },
+              {
+                "name": "Apache Struts 2"
+              },
+              {
+                "name": "Spring framework 2"
+              },
+              {
+                "name": "Hibernate"
+              }
             ]
           }
         ]
