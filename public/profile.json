@@ -1388,6 +1388,10 @@
           {
             "label": "Details",
             "url": "https://www.meetup.com/barcelonajug/events/277153669/?eventOrigin=group_events_list"
+          },
+          {
+            "label": "Github repo",
+            "url": "https://github.com/anyulled/assertj"
           }
         ]
       }
