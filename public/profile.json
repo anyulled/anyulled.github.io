@@ -257,6 +257,10 @@
             "url": "https://www.linkedin.com/feed/update/urn:li:activity:7153662779541860352/"
           },
           {
+            "label": "2025 program",
+            "url": "https://media.licdn.com/dms/image/v2/D4D2DAQElOXyZm8EnVA/profile-treasury-image-shrink_1280_1280/B4DZUjJSTDHwAY-/0/1740051392451?e=1788192000&v=beta&t=slnoG_vRax8xjTdTkoleFvaEGEtm2YbutLd2X5HJTEg"
+          },
+          {
             "label": "2024 program",
             "url": "https://www.linkedin.com/posts/anyulled_bootcamp-aws-cloudcomputing-activity-7153662779541860352-NZXX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAP5qtoBT335K0fgEascrWC7KGojmbeNic0"
           }
@@ -288,12 +292,8 @@
         "description": "A member of the Kubernetes Spanish documentation translation group.",
         "links": [
           {
-            "label": "Cloud Native Glossary — Spanish",
-            "url": "https://kubernetes.io/es/docs/reference/glossary/"
-          },
-          {
-            "label": "Kubernetes website repository",
-            "url": "https://github.com/kubernetes/website"
+            "label": "Cloud Native Glossary — Spanish CNCF",
+            "url": "https://www.cncf.io/blog/2022/08/19/cloud-native-glossary-the-spanish-version-is-live/"
           }
         ]
       },
@@ -1236,6 +1236,10 @@
           {
             "label": "LinkedIn details",
             "url": "https://www.linkedin.com/posts/barcelonajug_barcelonajug-talentarena-java-ugcPost-7441939261366620160-DQDP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAP5qtoBT335K0fgEascrWC7KGojmbeNic0"
+          },
+          {
+            "label": "Github repo",
+            "url": "https://github.com/anyulled/superhero-battle-arena"
           }
         ]
       },
@@ -1295,6 +1299,10 @@
           {
             "label": "LinkedIn details",
             "url": "https://www.linkedin.com/posts/anyulled_talentarena2025-futureleaders-digitaltalent-activity-7303353823815729153-Lsn_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAP5qtoBT335K0fgEascrWC7KGojmbeNic0"
+          },
+          {
+            "label": "Github repo",
+            "url": "https://github.com/anyulled/technical-debt-workshop-with-java"
           }
         ]
       },
@@ -1306,6 +1314,10 @@
           {
             "label": "Details",
             "url": "https://www.meetup.com/barcelonajug/events/301871073/"
+          },
+          {
+            "label": "Github repo",
+            "url": "https://github.com/Spring-io-2024-modulith-workshop/conference-kata-implementation-modulith"
           }
         ]
       },
@@ -1317,6 +1329,10 @@
           {
             "label": "Details",
             "url": "https://2024.springio.net/sessions/transitioning-from-monolithic-architecture-to-spring-modulith/"
+          },
+          {
+            "label": "Github repo",
+            "url": "https://github.com/Spring-io-2024-modulith-workshop/conference-kata-implementation-modulith"
           }
         ]
       },
@@ -2309,11 +2325,11 @@
                 },
                 {
                   "label": "JBCNConf 2022",
-                  "url": "https://web.archive.org/web/20221001000000/https://jbcnconf.com/"
+                  "url": "https://www.jbcnconf.com/2022/about.html"
                 },
                 {
                   "label": "JBCNConf 2021",
-                  "url": "https://web.archive.org/web/20211001000000/https://jbcnconf.com/"
+                  "url": "https://www.jbcnconf.com/2021/about.html"
                 }
               ]
             },
