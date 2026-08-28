@@ -1884,6 +1884,16 @@
         ]
       },
       {
+        "name": "Fabric8 Kubernetes Client",
+        "description": "Contributed to the model generator by removing Lombok from generated Java models and generating their object methods directly, simplifying the generated code and its dependencies.",
+        "links": [
+          {
+            "label": "Pull request",
+            "url": "https://github.com/fabric8io/kubernetes-client/pull/8037"
+          }
+        ]
+      },
+      {
         "name": "Pet Clinic",
         "description": "Spring PetClinic contributions focused on clearer AssertJ assertions, removal of redundant assertions and general test-suite refactoring.",
         "links": [
