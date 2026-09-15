@@ -1427,6 +1427,30 @@
               "Google Cloud Platform (GCP) SDK",
               "Java Mainframe Connector (JMC)"
             ]
+          },
+          {
+            "name": "Legacy Modernization",
+            "period": "2026 - Present",
+            "description": "Modernizing a Java 6 and JavaServer Faces application into Java 17 microservices. Automated modernization and quality controls use OpenRewrite recipes, static analysis and formatting; Pact verifies contracts with the frontend and peer services; ArchUnit enforces hexagonal architecture; and integration tests exercise Db2, Oracle and Redis through Testcontainers while WireMock and J2C emulate mainframe integrations.",
+            "technologies": [
+              "ArchUnit",
+              "Error Prone",
+              "IBM Db2",
+              "J2EE Connector Architecture (J2C)",
+              "Java 6",
+              "Java 17",
+              "JavaServer Faces (JSF)",
+              "JSpecify",
+              "Mockito",
+              "OpenRewrite",
+              "Oracle Database",
+              "Pact JVM",
+              "Redis",
+              "SpotBugs",
+              "Spotless",
+              "Testcontainers",
+              "WireMock"
+            ]
           }
         ]
       },
