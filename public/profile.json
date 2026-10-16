@@ -352,6 +352,30 @@
     ],
     "events": [
       {
+        "date": "2026-10-27",
+        "name": "AI Campus Barcelona",
+        "type": "hackathon",
+        "description": "Superhero Battle Arena Hackathon with Spring AI",
+        "links": [
+          {
+            "label": "Event details",
+            "url": "https://www.aicampus.barcelona/es/program/superhero-battle-arena-hackathon-2026-10-27?utm_source=luma"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "name": "Barcelona Java User Group",
+        "type": "meetup",
+        "description": "Java 27 Lightning Talks",
+        "links": [
+          {
+            "label": "Luma event",
+            "url": "https://luma.com/7etvz4bf"
+          }
+        ]
+      },
+      {
         "date": "2026-10-16",
         "name": "Software Crafters Barcelona",
         "type": "conference",
@@ -1169,6 +1193,39 @@
       }
     ],
     "talks": [
+      {
+        "date": "2026-10-27",
+        "name": "AI Campus Barcelona",
+        "description": "Participant, Superhero Battle Arena Hackathon with Spring AI",
+        "links": [
+          {
+            "label": "Event details",
+            "url": "https://www.aicampus.barcelona/es/program/superhero-battle-arena-hackathon-2026-10-27?utm_source=luma"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "name": "Barcelona Java User Group",
+        "description": "Java 27 Lightning Talks",
+        "links": [
+          {
+            "label": "Luma event",
+            "url": "https://luma.com/7etvz4bf"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "name": "MWC Upskilling Week",
+        "description": "Production Incident Lab: Debugging Distributed Systems with OpenTelemetry",
+        "links": [
+          {
+            "label": "Details",
+            "url": "https://mobileworldcapital.com/en/agenda/upskilling-week-november-2026/"
+          }
+        ]
+      },
       {
         "date": "2026-10-17",
         "name": "Software Crafters Barcelona",
