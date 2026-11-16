@@ -1972,11 +1972,11 @@
       },
       {
         "name": "JReleaser",
-        "description": "Early contributor to JReleaser: Google Chat announcement support (PR #240), Catalan localization and updates (PRs #422 and #549), and removal of deprecated config CLI flags with regression tests (PR #2190, merged November 2026). Proposed a core distribution-type consolidation removing NATIVE_IMAGE in favor of BINARY, updating packagers, validators and templates, and adding regression tests (PR #2191, open as of November 16, 2026).",
+        "description": "Contributions to Google Chat announcements, Catalan localization, CLI deprecation cleanup, and a proposed simplification of distribution types.",
         "links": [
           {
-            "label": "Details",
-            "url": "https://github.com/jreleaser/jreleaser/blob/main/CONTRIBUTORS.md"
+            "label": "Pull requests",
+            "url": "https://github.com/jreleaser/jreleaser/pulls?q=is%3Apr+author%3Aanyulled"
           },
           {
             "label": "github contributions",
@@ -1985,26 +1985,6 @@
           {
             "label": "Youtube Video",
             "url": "https://www.youtube.com/live/gVyh-nq8-OU?si=7BxH0esOtvPeoYtQ&t=3534"
-          },
-          {
-            "label": "JReleaser Google Chat integration (merged PR #240)",
-            "url": "https://github.com/jreleaser/jreleaser/pull/240"
-          },
-          {
-            "label": "JReleaser Catalan translation (merged PR #422)",
-            "url": "https://github.com/jreleaser/jreleaser/pull/422"
-          },
-          {
-            "label": "JReleaser Catalan translation update (merged PR #549)",
-            "url": "https://github.com/jreleaser/jreleaser/pull/549"
-          },
-          {
-            "label": "JReleaser CLI deprecation cleanup (merged PR #2190)",
-            "url": "https://github.com/jreleaser/jreleaser/pull/2190"
-          },
-          {
-            "label": "JReleaser distribution-type consolidation (PR #2191)",
-            "url": "https://github.com/jreleaser/jreleaser/pull/2191"
           }
         ]
       },
