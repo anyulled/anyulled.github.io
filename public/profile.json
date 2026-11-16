@@ -1972,7 +1972,7 @@
       },
       {
         "name": "JReleaser",
-        "description": "Contributions to the announcement functionality, including Google Chat support and a Catalan translation.",
+        "description": "Early contributor to JReleaser: Google Chat announcement support (PR #240), Catalan localization and updates (PRs #422 and #549), and removal of deprecated config CLI flags with regression tests (PR #2190, merged November 2026). Proposed a core distribution-type consolidation removing NATIVE_IMAGE in favor of BINARY, updating packagers, validators and templates, and adding regression tests (PR #2191, open as of November 16, 2026).",
         "links": [
           {
             "label": "Details",
@@ -1985,6 +1985,26 @@
           {
             "label": "Youtube Video",
             "url": "https://www.youtube.com/live/gVyh-nq8-OU?si=7BxH0esOtvPeoYtQ&t=3534"
+          },
+          {
+            "label": "JReleaser Google Chat integration (merged PR #240)",
+            "url": "https://github.com/jreleaser/jreleaser/pull/240"
+          },
+          {
+            "label": "JReleaser Catalan translation (merged PR #422)",
+            "url": "https://github.com/jreleaser/jreleaser/pull/422"
+          },
+          {
+            "label": "JReleaser Catalan translation update (merged PR #549)",
+            "url": "https://github.com/jreleaser/jreleaser/pull/549"
+          },
+          {
+            "label": "JReleaser CLI deprecation cleanup (merged PR #2190)",
+            "url": "https://github.com/jreleaser/jreleaser/pull/2190"
+          },
+          {
+            "label": "JReleaser distribution-type consolidation (PR #2191)",
+            "url": "https://github.com/jreleaser/jreleaser/pull/2191"
           }
         ]
       },
@@ -2168,7 +2188,7 @@
                 "Anyul has made focused contributions to several Java ecosystem projects, particularly where they overlap with his interest in testing, refactoring and developer tooling.",
                 "Spring PetClinic: in 2024 he authored twelve commits focused primarily on improving the test suite, including clearer and more consistent AssertJ assertions, removal of redundant assertions and general test-code refactoring.",
                 "Eclipse Jkube: in 2021 he proposed PR #575 and it was merged, refactoring map-handling logic across several modules to use standard Java Map.putIfAbsent and computeIfAbsent APIs, removing redundant utility code and simplifying the implementation.",
-                "JReleaser: as an early adopter and contributor in 2021, he added Google Chat support to the announcement functionality and later contributed the Catalan translation. Project lead Andres Almiray publicly highlighted Anyul as an exemplary contributor during a community presentation."
+                "JReleaser: as an early adopter and contributor in 2021, he added Google Chat support to the announcement functionality (PR #240), contributed the Catalan translation (PR #422), and maintained it through PR #549. Project lead Andres Almiray publicly highlighted Anyul as an exemplary contributor during a community presentation. In November 2026 he returned to contribute to project maintenance: PR #2190, merged on November 10, removed the deprecated -d and -a config command flags and introduced Picocli regression tests. He also proposed PR #2191, a core refactoring consolidating NATIVE_IMAGE into BINARY, removing deprecated APIs and compatibility shims, updating packagers, validators and templates, and adding distribution-type regression tests. The proposal spans 64 changed files and remained open as of November 16, 2026."
               ],
               "links": [
                 {
@@ -2186,6 +2206,26 @@
                 {
                   "label": "Andres Almiray highlighting the contribution",
                   "url": "https://www.youtube.com/live/gVyh-nq8-OU?si=7BxH0esOtvPeoYtQ&t=3534"
+                },
+                {
+                  "label": "JReleaser Google Chat integration (merged PR #240)",
+                  "url": "https://github.com/jreleaser/jreleaser/pull/240"
+                },
+                {
+                  "label": "JReleaser Catalan translation (merged PR #422)",
+                  "url": "https://github.com/jreleaser/jreleaser/pull/422"
+                },
+                {
+                  "label": "JReleaser Catalan translation update (merged PR #549)",
+                  "url": "https://github.com/jreleaser/jreleaser/pull/549"
+                },
+                {
+                  "label": "JReleaser CLI deprecation cleanup (merged PR #2190)",
+                  "url": "https://github.com/jreleaser/jreleaser/pull/2190"
+                },
+                {
+                  "label": "JReleaser distribution-type consolidation (PR #2191)",
+                  "url": "https://github.com/jreleaser/jreleaser/pull/2191"
                 }
               ]
             }
