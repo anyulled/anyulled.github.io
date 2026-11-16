@@ -1215,7 +1215,8 @@
             "label": "Conference details",
             "url": "https://www.javaland.eu/"
           }
-        ]
+        ],
+        "logoPath": "/javaland.png"
       },
       {
         "date": "2026-10-27",
