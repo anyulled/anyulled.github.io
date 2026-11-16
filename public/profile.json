@@ -1207,6 +1207,17 @@
     ],
     "talks": [
       {
+        "date": "2027-03-02",
+        "name": "JavaLand 2027",
+        "description": "Accepted speaker: Your Architecture Is Your Organization: Escaping Accidental Complexity (15:00, CircusCelebration, 40 min)",
+        "links": [
+          {
+            "label": "Conference details",
+            "url": "https://www.javaland.eu/"
+          }
+        ]
+      },
+      {
         "date": "2026-10-27",
         "name": "AI Campus Barcelona",
         "description": "Participant, Superhero Battle Arena Hackathon with Spring AI",
@@ -2255,9 +2266,14 @@
           "paragraphs": [
             "Anyul has shared Java, architecture and software-craftsmanship practices through public talks, workshops, panels, coding dojos and community events. His public trajectory currently records eighteen speaking or teaching appearances from 2021 through 2026, in addition to the events he organizes for Barcelona JUG and Software Crafters Barcelona.",
             "Representative Java and JVM-related appearances include Devoxx Belgium 2026, JavaCro 2026, Software Crafters Barcelona 2026, JMad 2026, MWC Upskilling Week 2026, Talent Arena 2026 and 2025, Spring I/O 2024, and Barcelona JUG sessions on Java 25, architecture, testing and other community topics.",
+            "Anyul has also been accepted to speak at JavaLand 2027 on March 2, 2027, presenting \"Your Architecture Is Your Organization: Escaping Accidental Complexity,\" a 40-minute session scheduled for 15:00 in CircusCelebration.",
             "The lasting impact of this work is not limited to individual talks. Anyul has helped build a regular cadence for Barcelona JUG and brought new people into the community who now participate as active and enthusiastic members. The community continues independently of any one employer or event. That combination of sustained organization, technical teaching and practical knowledge sharing is the central thread of his contribution to the Java ecosystem."
           ],
           "links": [
+            {
+              "label": "JavaLand 2027",
+              "url": "https://www.javaland.eu/"
+            },
             {
               "label": "Devoxx Belgium 2026 speaker page",
               "url": "https://devoxx.com/"
