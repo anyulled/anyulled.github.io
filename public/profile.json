@@ -1220,13 +1220,14 @@
       {
         "date": "2026-10-27",
         "name": "AI Campus Barcelona",
-        "description": "Participant, Superhero Battle Arena Hackathon with Spring AI",
+        "description": "Instructor, Superhero Battle Arena Hackathon with Spring AI",
         "links": [
           {
             "label": "Event details",
             "url": "https://www.aicampus.barcelona/es/program/superhero-battle-arena-hackathon-2026-10-27?utm_source=luma"
           }
-        ]
+        ],
+        "logoPath": "/ai-campus-barcelona.png"
       },
       {
         "date": "2026-11-19",
